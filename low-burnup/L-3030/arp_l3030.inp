@@ -1,0 +1,31 @@
+'CTESTLABEL: {<TestOrigen>}
+'#TestGrep# "pu-24[1]" ${OUTPUTFILENAME}
+'#TestGrep# -i "erro[r]" ${OUTPUTFILENAME} | ${GREP} -v "[W]arnings and [E]rrors"
+'#TestGrep# "SCALE is finishe[d]" ${OUTPUTFILENAME} | ${AWK} "{print $1,$2,$3}"
+'#TestGrep# "is finishe[d]\." ${OUTPUTFILENAME} | ${AWK} "{print $1,$2,$3,$4,$5,$6,$7}"
+'--------------------------------------------------------------------------------------
+'
+'@TheDoctorRAB
+'
+'--------------------------------------------------------------------------------------
+'
+'IGEM used fuel cooling cask design project
+'
+'ARP files for burnup and depletion cases
+'
+'--------------------------------------------------------------------------------------
+'
+'Low burnup - 3.0% enrichment - 30 GWD/MTU
+'Depleted for 18 months at 0.95 capacity
+'
+'--------------------------------------------------------------------------------------
+=arp
+w17x17 % Westinghouse 17x17 lattice
+3.0 % initial enrichment
+1 % irradiation cycles
+515% day cycle lengths
+58.25 % MW/MTU
+1 % library per cycle
+0.732 % g/cc moderator density 
+w17x17_3030_burnlib.f33 % file name
+end
