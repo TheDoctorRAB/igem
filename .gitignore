@@ -30,3 +30,8 @@
 *.exe
 *.out
 *.app
+
+# SCALE
+*.msg
+*.f33
+*.f71
