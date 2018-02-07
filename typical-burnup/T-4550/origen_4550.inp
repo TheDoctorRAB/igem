@@ -47,7 +47,7 @@ case(irradiation){
   beta=yes
   lib{ file="w17x17_4550_burnlib.f33" pos=1 }
   time{ t=[ 30 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 515 ] units=DAYS }
-  power=[ 17R 87.38 ]
+  power=[ 17R 97.09 ]
   mat{ iso=[ u234=254 u235=45000 u236=138 u238=954608 ] units=GRAMS }
 }
 '
