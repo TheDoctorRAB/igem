@@ -11,7 +11,7 @@
 '
 'IGEM used fuel cooling cask design project
 '
-'ARP files for burnup and depletion cases
+'ORIGEN-S files for burnup and depletion cases
 '
 '--------------------------------------------------------------------------------------
 '
@@ -19,30 +19,58 @@
 'Depleted for 18 months at 0.95 capacity
 '
 '--------------------------------------------------------------------------------------
-=arp
+'
+'Need to move the .f33 library to the working directory that SCALE creates for the run
+'
 '--------------------------------------------------------------------------------------
-'Westinghouse 17x17 lattice
-w17x17
+=shell
+cp ${INPDIR}/w17x17_3533_burnlib.f33 w17x17_3533_burnlib.f33
+end
 '--------------------------------------------------------------------------------------
-'initial enrichment (%)
-3.5
+=origens
 '--------------------------------------------------------------------------------------
-'irradiation cycles
-1
+'Bounds for particle and photon emission
+bounds{ 
+  neutron="scale.rev04.xn252v7.1" 
+  gamma="xn27g19v7.0" 
+  alpha=[ 19L 5E3 20E6 ] 
+  beta=[ 19L 1 5E6 ]
+}
 '--------------------------------------------------------------------------------------
-'cycle length (days)
-515
+'Irradiation in the reactor
+'
+case(irradiation){
+  title="Low burnup - 3.5% enrichment - 33 GWD/MTU"
+  neutron=yes
+  gamma=yes
+  alpha=yes
+  beta=yes
+  lib{ file="w17x17_3533_burnlib.f33" pos=1 }
+  time{ t=[ 30 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 515 ] units=DAYS }
+  power=[ 17R 64.08 ]
+  mat{ iso=[ u234=254 u235=35000 u236=138 u238=964608 ] units=GRAMS }
+}
+'
 '--------------------------------------------------------------------------------------
-'average cycle power (MW/MTU)
-64.08
-'--------------------------------------------------------------------------------------
-'library per cycle
-1
-'--------------------------------------------------------------------------------------
-'moderator density (g/cc)
-0.732
-'--------------------------------------------------------------------------------------
-'library filename (must end in .f33)
-w17x17_3533_burnlib.f33
+'
+'Cooling in the used fuel pool - just decay
+'
+case(decay){
+  title="Used fuel cooling in the pool"
+  neutron=yes
+  gamma=yes
+  alpha=yes
+  beta=yes
+  time{ t=[ 19I 880 7815 ] units=DAYS }
+  print{ rel_cutoff=no cutoffs[ ALL=1E-08 ] 
+    nuc{ sublibs=ALL total=yes units=[ GRAMS MOLES CURIES WEIGHT_PPM WATTS G-WATTS ] } 
+    neutron{ summary=yes spectra=yes detailed=yes }
+    gamma{ summary=yes spectra=yes }
+    alpha{ summary=yes spectra=yes }
+    beta{ summary=yes spectra=yes }
+  }
+  save{ file="w17x17_3533.f71" steps=ALL }
+}
+'
 '--------------------------------------------------------------------------------------
 end
