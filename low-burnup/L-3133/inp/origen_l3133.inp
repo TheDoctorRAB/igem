@@ -65,9 +65,9 @@ case(decay){
   print{ rel_cutoff=no cutoffs[ ALL=1E-08 ] 
     nuc{ sublibs=ALL total=yes units=[ GRAMS MOLES CURIES WEIGHT_PPM WATTS G-WATTS ] } 
     neutron{ summary=yes spectra=yes detailed=yes }
-    gamma{ summary=yes spectra=yes }
+    gamma{ summary=yes spectra=yes principal_step=0 principal_cutoff=0.1 }
     alpha{ summary=yes spectra=yes }
-    beta{ summary=yes spectra=yes }
+    beta{ summary=yes spectra=yes principal_step=0 principal_cutoff=0.1 }
   }
   save{ file="w17x17_3133.f71" steps=ALL }
 }
