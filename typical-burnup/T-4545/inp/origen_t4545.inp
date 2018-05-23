@@ -1,0 +1,76 @@
+'CTESTLABEL: {<TestOrigen>}
+'#TestGrep# "pu-24[1]" ${OUTPUTFILENAME}
+'#TestGrep# -i "erro[r]" ${OUTPUTFILENAME} | ${GREP} -v "[W]arnings and [E]rrors"
+'#TestGrep# "SCALE is finishe[d]" ${OUTPUTFILENAME} | ${AWK} "{print $1,$2,$3}"
+'#TestGrep# "is finishe[d]\." ${OUTPUTFILENAME} | ${AWK} "{print $1,$2,$3,$4,$5,$6,$7}"
+'--------------------------------------------------------------------------------------
+'
+'@TheDoctorRAB
+'
+'--------------------------------------------------------------------------------------
+'
+'IGEM used fuel cooling cask design project
+'
+'ORIGEN-S files for burnup and depletion cases
+'
+'--------------------------------------------------------------------------------------
+'
+'Typical burnup - 4.5% enrichment - 45 GWD/MTU
+'Depleted for 18 months at 0.95 capacity
+'
+'--------------------------------------------------------------------------------------
+'
+'Need to move the .f33 library to the working directory that SCALE creates for the run
+'
+'--------------------------------------------------------------------------------------
+=shell
+cp ${INPDIR}/w17x17_4545_burnlib.f33 w17x17_4545_burnlib.f33
+end
+'--------------------------------------------------------------------------------------
+=origens
+'--------------------------------------------------------------------------------------
+'Bounds for particle and photon emission
+bounds{ 
+  neutron="scale.rev04.xn252v7.1" 
+  gamma="xn27g19v7.0" 
+  alpha=[ 19L 5E3 20E6 ] 
+  beta=[ 19L 1 5E6 ]
+}
+'--------------------------------------------------------------------------------------
+'Irradiation in the reactor
+'
+case(irradiation){
+  title="Typical burnup - 4.5% enrichment - 45 GWD/MTU"
+  neutron=yes
+  gamma=yes
+  alpha=yes
+  beta=yes
+  lib{ file="w17x17_4545_burnlib.f33" pos=1 }
+  time{ t=[ 30 60 90 120 150 180 210 240 270 300 330 360 390 420 450 480 515 ] units=DAYS }
+  power=[ 17R 87.38 ]
+  mat{ iso=[ u234=254 u235=45000 u236=138 u238=954608 ] units=GRAMS }
+}
+'
+'--------------------------------------------------------------------------------------
+'
+'Cooling in the used fuel pool - just decay
+'
+case(decay){
+  title="Used fuel cooling in the pool"
+  neutron=yes
+  gamma=yes
+  alpha=yes
+  beta=yes
+  time{ t=[ 19I 880 7815 ] units=DAYS }
+  print{ rel_cutoff=no cutoffs[ ALL=1E-08 ] 
+    nuc{ sublibs=ALL total=yes units=[ GRAMS MOLES CURIES WEIGHT_PPM WATTS G-WATTS ] } 
+    neutron{ summary=yes spectra=yes detailed=yes }
+    gamma{ summary=yes spectra=yes principal_step=0 principal_cutoff=0.1 }
+    alpha{ summary=yes spectra=yes }
+    beta{ summary=yes spectra=yes principal_step=0 principal_cutoff=0.1 }
+  }
+  save{ file="w17x17_4545.f71" steps=ALL }
+}
+'
+'--------------------------------------------------------------------------------------
+end
