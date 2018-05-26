@@ -132,9 +132,33 @@ c      ---
 308    3 -1.00  -38  23 -24            imp:n=1        $23 - fluid - south plate 3
 309    4 -7.92   38 -39  23 -24        imp:n=1        $24 - pipe - south plate 3
 310    3 -1.00  -40  23 -24            imp:n=1        $25 - fluid - north plate 3
-311    4 -7.92   40 -41  23 -24        imp:n=1        $26 - pipe - south plate 3
-c
-c
+311    4 -7.92   40 -41  23 -24        imp:n=1        $26 - pipe - north plate 3
+c      ---
+312    3 -1.00  -42  23 -24            imp:n=1        $27 - fluid - south plate 4
+313    4 -7.92   42 -43  23 -24        imp:n=1        $28 - pipe - south plate 4
+314    3 -1.00  -44  23 -24            imp:n=1        $29 - fluid - north plate 4
+315    4 -7.92   44 -45  23 -24        imp:n=1        $30 - pipe - north plate 4
+c      ---
+316    3 -1.00  -nn  23 -24            imp:n=1        $- fluid - west plate 1
+317    4 -7.92   nn -nn  23 -24        imp:n=1        $- pipe - west plate 1
+318    3 -1.00  -nn  23 -24            imp:n=1        $- fluid - east plate 1
+319    4 -7.92   nn -nn  23 -24        imp:n=1        $- pipe - east plate 1
+c      ---
+320    3 -1.00  -nn  23 -24            imp:n=1        $- fluid - west plate 2 
+321    4 -7.92   nn -nn  23 -24        imp:n=1        $- pipe - west plate 2
+322    3 -1.00  -nn  23 -24            imp:n=1        $- fluid - east plate 2
+323    4 -7.92   nn -nn  23 -24        imp:n=1        $- pipe - east plate 2
+c      ---
+324    3 -1.00  -nn  23 -24            imp:n=1        $- fluid - west plate 3
+325    4 -7.92   nn -nn  23 -24        imp:n=1        $- pipe - west plate 3
+326    3 -1.00  -nn  23 -24            imp:n=1        $- fluid - west plate 3
+327    4 -7.92   nn -nn  23 -24        imp:n=1        $- pipe - west plate 3
+c      ---
+328    3 -1.00 $- fluid - west plate 4
+329    4 -7.92 $- pipe - west plate 4
+330    3 -1.00 $- fluid - west plate 4
+331    4 -7.92 $- pipe - west plate 4
+c      ---
 c      ---
 c      999    0        -10:13:-16:19:-23:25    imp:n=0
 c      ---
@@ -168,21 +192,46 @@ c      ---
 25     pz  165                                        $403 - plate height
 26     pz  166.5                                      $404 - plate height + plate thickness
 c      ---
-30     c/z 3.8525 0.75  0.25                          $80 - fluid radius/pipe ID - south plate 1
-31     c/z 3.8525 0.75  0.30                          $81 - pipe OD - south plate 1
-32     c/z 3.8525 21.07 0.25                          $100 - fluid radius/pipe ID - north plate 1
-33     c/z 3.8525 21.07 0.30                          $101 - pipe OD - north plate 1
+30     c/z 3.8525 0.75   0.25                         $80 - fluid radius/pipe ID - south plate 1
+31     c/z 3.8525 0.75   0.30                         $81 - pipe OD - south plate 1
+32     c/z 3.8525 21.07  0.25                         $100 - fluid radius/pipe ID - north plate 1
+33     c/z 3.8525 21.07  0.30                         $101 - pipe OD - north plate 1
 c      ---
-34     c/z 8.5575 0.75  0.25                          $84 - fluid radius/pipe ID - south plate 2
-35     c/z 8.5575 0.75  0.30                          $85 - pipe OD - south plate 2
-36     c/z 8.5575 21.07 0.25                          $104 - fluid radius/pipe ID - north plate 2
-37     c/z 8.5575 21.07 0.30                          $105 - pipe OD - north plate 2
+34     c/z 8.5575 0.75   0.25                         $84 - fluid radius/pipe ID - south plate 2
+35     c/z 8.5575 0.75   0.30                         $85 - pipe OD - south plate 2
+36     c/z 8.5575 21.07  0.25                         $104 - fluid radius/pipe ID - north plate 2
+37     c/z 8.5575 21.07  0.30                         $105 - pipe OD - north plate 2
 c      ---
 38     c/z 13.2625 0.75  0.25                         $88 - fluid radius/pipe ID - south plate 3
 39     c/z 13.2625 0.75  0.30                         $89 - pipe OD - south plate 3
 40     c/z 13.2625 21.07 0.25                         $108 - fluid radius/pipe ID north plate 3
 41     c/z 13.2625 21.07 0.30                         $109 - pipe OD - north plate 3
-c
+c      ---
+42     c/z 17.9675 0.75  0.25                         $92 - fluid radius/pipe ID - south plate 4
+43     c/z 17.9675 0.75  0.30                         $93 - pipe OD - south plate 4
+44     c/z 17.9675 21.07 0.25                         $112 - fluid radius/pipe ID - north plate 4
+45     c/z 17.9675 21.07 0.30                         $113 - pipe OD - north plate 4
+c      ---
+46     c/z 0.75  3.8525  0.25                         $20 - fluid radius/pipe ID - west plate 1
+47     c/z 0.75  3.8525  0.30                         $21 - pipe OD - west plate 1
+48     c/z 21.07 3.8525  0.25                         $40 - fluid radius/pipe ID - east plate 1
+49     c/z 21.07 3.8525  0.30                         $41 - pipe OD - east plate 1
+c      ---
+50     c/z 0.75  8.5575  0.25                         $24 - fluid radius/pipe ID - west plate 2
+51     c/z 0.75  8.5575  0.30                         $25 - pipe OD - west plate 2
+52     c/z 21.07 8.5575  0.25                         $44 - fluid radius/pipe ID - east plate 2
+53     c/z 21.07 8.5575  0.30                         $45 - pipe OD - east plate 2
+c      ---
+54     c/z 0.75  13.2625 0.25                         $28 - fluid radius/pipe ID - west plate 3
+55     c/z 0.75  13.2625 0.30                         $29 - pipe OD - west plate 3
+56     c/z 21.07 13.2625 0.25                         $48 - fluid radius/pipe ID east plate 3
+57     c/z 21.07 13.2625 0.30                         $49 - pipe OD - east plate 3
+c      ---
+58     c/z 0.75  17.9675 0.25                         $32 - fluid radius/pipe ID - west plate 4
+59     c/z 0.75  17.9675 0.30                         $33 - pipe OD - west plate 4
+60     c/z 21.07 17.9675 0.25                         $52 - fluid radius/pipe ID - east plate 4
+61     c/z 21.07 17.9675 0.30                         $53 - pipe OD - east plate 4
+c      ---
 c
 c      -----------
 c      end surface cards
@@ -322,7 +371,7 @@ c
 c      ---
 c      cooling fluid 
 M4     1001.66c    -0.111894           $H
-       0816.66c    -0.888106           $O
+       8016.66c    -0.888106           $O
 c      ---
 c
 c      ---
