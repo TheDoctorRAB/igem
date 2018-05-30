@@ -39,18 +39,18 @@ xcord1 = ycord1
 Begin code to generate spacing material cells at each corner
 '''
 cel = 1
-print('c')    
+print('c')
 print('c - Begin Cell cards')
 crnr = 11
 
-print('c')    
+print('c')
 print('c - Corner spacers')
-while (cel<5): 
+while (cel<5):
     print(cel, mat1, -dens1, 1, -4, crnr, -crnr-3, 401, -403, 'imp:n=1'  )
     print(cel+1, mat1, -dens1, 2, -5, crnr, -crnr-3, 401, -403, 'imp:n=1'  )
     crnr = crnr +1
     cel=cel+2
-print('c')    
+print('c')
 '''
 End code to generate spacing material cells at each corner
 '''
@@ -70,13 +70,13 @@ End code to generate fuel array cells
 '''
 Begin code to generate the cooling tube cells
 '''
-print('c')    
+print('c')
 print('c cooling tubes running parallel to the x-axis' )
-print('c')  
+print('c')
 
 cel = 15 # cell set to 15 to allow up to 4 cells for 4 fuel arrays in 2x2
 cyl = 80 # First sruface selection for cell iterations runs through the first layer of cylinders
-while (cel<31):  
+while (cel<31):
     #first layer of cylinders
     print(cel, mat3, -dens3, -cyl,  401, -402, 'imp:n=1'  )
     print(cel+1, mat4, -dens3, cyl, -cyl -1, 401, -402, 'imp:n=1'  )
@@ -89,9 +89,9 @@ while (cel<31):
     cyl = cyl + 4
 
 
-print('c')    
+print('c')
 print('c cooling tubes running parallel to the y-axis' )
-print('c')  
+print('c')
 
 '''
 Need to account for 48 tubes, cells 15 through 63
@@ -100,7 +100,7 @@ Need to account for 48 tubes, cells 15 through 63
 cel = 63 #couter resets
 
 cyl = 20  # First surface selection for cell iterations runs through the first layer of cylinders
-while (cel<79): #up to 111 
+while (cel<79): #up to 111
     #first layer of cylinders
     print(cel, mat3, -dens3, -cyl,  401, -402, 'imp:n=1'  )
     print(cel+1, mat4, -dens3, cyl, -cyl -1, 401, -402, 'imp:n=1'  )
@@ -111,7 +111,7 @@ while (cel<79): #up to 111
     print('c')
     cel = cel + 4
     cyl = cyl + 4
-print('c')    
+print('c')
 
 '''
 End code to generate the cooling tube cells
@@ -121,13 +121,13 @@ End code to generate the cooling tube cells
 '''
 Begin code to generate the cooling tube torus cells
 '''
-print('c')    
+print('c')
 print('c cooling torus running parallel to the x-axis' )
-print('c')  
+print('c')
 cel = 111
 tor=201
 
-while (cel<119): 
+while (cel<119):
     print(cel, mat3, -dens3, -tor, 402, 'imp:n=1'  )
     print(cel+1, mat4, -dens3, tor, -tor -1, 402, 'imp:n=1'  )
     print('c')
@@ -138,14 +138,14 @@ while (cel<119):
     tor = tor + 10
 
 
-print('c')    
+print('c')
 print('c cooling torus running parallel to the y-axis' )
-print('c')  
+print('c')
 
 
 cel = 135
 tor = 301 #reset torus counter
-while (cel<143): 
+while (cel<143):
     print(cel, mat3, -dens3, -tor, 402, 'imp:n=1'  )
     print(cel+1, mat4, -dens3, tor, -tor -1, 402, 'imp:n=1'  )
     print('c')
@@ -154,7 +154,7 @@ while (cel<143):
     print('c')
     cel = cel + 4
     tor = tor + 10
-print('c')    
+print('c')
 
 '''
 End code to generate the cooling tube torus cells
@@ -173,12 +173,12 @@ surx1=1 #begin x surface counter
 tor = 135
 cyl = 15 #probably wrong
 # plates parallel to x axis
-while (cel<150): #  
+while (cel<150): #
     print(cel, ' ', mat1,' ', -dens3,' ', sury1,' ', -sury1 -3,' ', 4,' ', -2,' ',  401,' ', -403,' ', '\n',
           '     ', "#", cyl, ' ', "#",cyl+1,' ', "#",cyl+4, ' ', "#",cyl+5,' ', "#",cyl+8,' ', "#",cyl+9,' ', "#",cyl+12,' ', "#", cyl+13,' ','\n',
           '     ', "#", tor, ' ', "#",tor+1,' ', "#",tor+2, ' ',"#",tor+3, ' ','\n',
-          '     ', 'imp:n=1', sep ='')
-    print('c')  
+          '     ', 'imp:n=1', sep='')
+    print('c')
     cyl=cyl+2
     sury1 = sury1 + 1
     cel = cel + 1
@@ -186,19 +186,19 @@ while (cel<150): #
 
 
 tor = 111
-cel= 154 #rest cell counter for 
+cel= 154 #rest cell counter for
 cyl = 63 #probably wrong
 # plates parallel to y axis
-while (cel<156): 
+while (cel<156):
     print(cel, ' ', mat1,' ', -dens3,' ', surx1,' ', -surx1 -3,' ', 14,' ', -12,' ',  401,' ', -403,' ', '\n',
           '     ', "#", cyl,' ', "#",cyl+1,' ', "#",cyl+4,' ', "#",cyl+5,' ', "#",cyl+8,' ', "#",cyl+9,' ', "#",cyl+12,' ', "#", cyl+13,' ','\n',
           '     ', "#", tor, ' ', "#",tor+1,' ', "#",tor+2, ' ',"#",tor+3, ' ','\n',
           '     ', 'imp:n=1', sep ='')
-    print('c')  
+    print('c')
     cyl=cyl+2
     surx1 = surx1 + 1
-    cel = cel + 1  
-    tor = tor + 4  
+    cel = cel + 1
+    tor = tor + 4
 
 print('c')
 '''
@@ -240,7 +240,7 @@ for sur in range (1,4):
     print(sur, 'px', xsur1 ) #xplanes, iterate for 6 entries
     sur = sur + 1
     xsur1 = xsur1 + w
-    
+
 print('c')
 for sur in range (4,7):
     print(sur, 'px', xsur2 ) #xplanes, iterate for 6 entries
@@ -256,13 +256,13 @@ for sur in range (11,14):
     print(sur, 'py', ysur1 ) #yplanes, iterate for 6 entries
     sur = sur + 1
     ysur1 = ysur1 + w
-    
+
 print('c')
 for sur in range (14,17):
     print(sur, 'py', ysur2 ) #yplanes, iterate for 6 entries
     sur = sur + 1
     ysur2 = ysur2 + w
-print('c')    
+print('c')
 
 '''
 End code to generate X and Y planes
@@ -386,13 +386,13 @@ while (sur < 136):
 '''
 End code to generate cylinders parallel to the y and x axes, orthogonal to the z
 
-'''  
+'''
 
 '''
 Begin code to generate taurus' parallel to the y and x axes
 
-'''   
-    
+'''
+
 ycoord1 = ycord1
 ycoord2 = ycoord1 + w
 xcoord1 = xcord1
@@ -408,7 +408,7 @@ tl1ay = thk + ( w - thk )/4
 tl1by = thk + ( w - thk ) * 3 / 4
 sur = 200
 
-while (sur < 208):  
+while (sur < 208):
     print(sur + 1, 'TX', thk/2, tl1ay, h2, distt, r1, r1 ) #outer cylinder
     print(sur + 2, 'TX', thk/2, tl1ay, h2, distt, r2, r2 )
     print(sur + 3, 'TX', thk/2, tl1by, h2, distt, r1, r1 ) #outer cylinder
@@ -428,7 +428,7 @@ tl2ay = thk + ( w - thk )/4
 tl2by = thk + ( w - thk ) * 3 / 4
 sur = 210
 
-while (sur < 218):  
+while (sur < 218):
     print(sur + 1, 'TX', thk/2+w, tl2ay, h2, distt, r1, r1 ) #outer cylinder
     print(sur + 2, 'TX', thk/2+w, tl2ay, h2, distt, r2, r2 )
     print(sur + 3, 'TX', thk/2+w, tl2by, h2, distt, r1, r1 ) #outer cylinder
@@ -436,7 +436,7 @@ while (sur < 218):
     sur = sur + 4
     tl2ay = tl2ay + w
     tl2by = tl2by + w
-    
+
 print('c')
 print('c level 3 parallel to x torus')
 
@@ -446,7 +446,7 @@ tl3ay = thk + ( w - thk )/4
 tl3by = thk + ( w - thk ) * 3 / 4
 sur = 220
 
-while (sur < 228):   
+while (sur < 228):
     print(sur + 1, 'TX', thk/2+2*w, tl3ay, h2, distt, r1, r1 ) #outer cylinder
     print(sur + 2, 'TX', thk/2+2*w, tl3ay, h2, distt, r2, r2 )
     print(sur + 3, 'TX', thk/2+2*w, tl3by, h2, distt, r1, r1 ) #outer cylinder
@@ -454,7 +454,7 @@ while (sur < 228):
     sur = sur + 4
     tl3ay = tl3ay + w
     tl3by = tl3by + w
-    
+
     print('c')
 
 print('c level 1 parallel to y torus')
@@ -465,7 +465,7 @@ tl1ax = thk + ( w - thk )/4
 tl1bx = thk + ( w - thk ) * 3 / 4
 sur = 300
 
-while (sur < 308): 
+while (sur < 308):
     print(sur + 1, 'TY', tl1ax, thk/2, h2, distt, r1, r1 ) #outer cylinder
     print(sur + 2, 'TY', tl1ax, thk/2, h2, distt, r2, r2 )
     print(sur + 3, 'TY', tl1bx, thk/2, h2, distt, r1, r1 ) #outer cylinder
@@ -485,7 +485,7 @@ tl2ax = thk + ( w - thk )/4
 tl2bx = thk + ( w - thk ) * 3 / 4
 sur = 310
 
-while (sur < 318): 
+while (sur < 318):
     print(sur + 1, 'TY', tl2ax, thk/2+w, h2, distt, r1, r1 ) #outer cylinder
     print(sur + 2, 'TY', tl2ax, thk/2+w, h2, distt, r2, r2 )
     print(sur + 3, 'TY', tl2bx, thk/2+w, h2, distt, r1, r1 ) #outer cylinder
@@ -493,7 +493,7 @@ while (sur < 318):
     sur = sur + 4
     tl2ax = tl2ax + w
     tl2bx = tl2bx + w
-    
+
 print('c')
 print('c level 3 parallel to y torus')
 
@@ -503,7 +503,7 @@ tl3ax = thk + ( w - thk )/4
 tl3bx = thk + ( w - thk ) * 3 / 4
 sur = 320
 
-while (sur < 328):  
+while (sur < 328):
     print(sur + 1, 'TY', tl3ax, thk/2+2*w, h2, distt, r1, r1 ) #outer cylinder
     print(sur + 2, 'TY', tl3ax, thk/2+2*w, h2, distt, r2, r2 )
     print(sur + 3, 'TY', tl3bx, thk/2+2*w, h2, distt, r1, r1 ) #outer cylinder
@@ -511,7 +511,7 @@ while (sur < 328):
     sur = sur + 4
     tl3ax = tl3ax + w
     tl3bx = tl3bx + w
-    
+
 print('c')
 print('c')
 print('c')
