@@ -47,6 +47,7 @@ c      Dimensions and positions
 c      -----------
 c      Fuel - 21.318 x 21.318 x 400
 c      Based on 17x17 assembly with 12.54 mm pitch.
+c      https://syeilendrapramuditya.wordpress.com/2009/04/14/standard-pwr-nuclear-fuel-assembly-17x17-technical-specification/
 c      Plates - fuel + 2*gap thickness
 c      Plate thickness - variable - see surface labels
 c      Pipe OD - 0.30 cm
@@ -267,7 +268,7 @@ c      ---
 c      ---
 22     pz -1.5                                        $400 - change thickness
 23     pz  0                                          $401
-24     pz  402.4                                      $402 - pipe height - 7.6 cm below height of plate
+24     pz  402.4                                      $402 - cylinder height - 7.6 cm below height of plate
 25     pz  410                                        $403 - plate height
 26     pz  411.5                                      $404 - plate height + plate thickness
 c      ---
