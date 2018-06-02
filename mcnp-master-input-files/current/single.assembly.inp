@@ -11,9 +11,10 @@ c      MCNP modeling notes
 c      -----------
 c      Based on geometry by J Seth Dustin.
 c      Age of the fuel given in the material card. 
-c      Numbers after the $N comment correspond to the cells/surfaces in the python file.
-c      Run the python file to change dimensions and then just update here.
-c      Runs on python 3 NOT 2.7.
+c      Numbers after the $N comment correspond to the cells/surfaces in the original python script.
+c      Run the new python script in current directory to change dimensions.
+c      $N is not needed if the current script is run.
+c      Comments carry over. 
 c      -----------
 c      end
 c      -----------
@@ -28,7 +29,7 @@ c      Pipes embedded in the plates with cooling fluid.
 c      Two plates cap the cask.
 c      A gas gap surrounds the fuel. 
 c      -----------
-c      end description
+c      end
 c      -----------
 c
 c      -----------
@@ -265,7 +266,7 @@ c      ---
 19     py  1.5                                        $14 - plate thickness
 20     py  34.318                                     $15 - plate width + 2*plate thickness
 c      ---
-22     pz -1.5                                        $400 - change thickness
+22     pz -1.5                                        $400 - plate thickness
 23     pz  0                                          $401
 24     pz  402.4                                      $402 - pipe height - 7.6 cm below height of plate
 25     pz  410                                        $403 - plate height
@@ -344,8 +345,8 @@ c      ---
 80     py 6.5                                         $fuel block - change for gap or thickness 
 81     py 27.818                                      $fuel block - change for gap or thickness 
 c      ---
-82     pz 5                                           $fuel block
-83     pz 405                                         $fuel block  
+82     pz 5                                           $fuel block - change for gap or thickness
+83     pz 405                                         $fuel block - change for gap or thickness
 c      ---
 c      unit cell geometry
 c      top and bottom given in 82,83
