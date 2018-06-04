@@ -405,7 +405,8 @@ c      ---
 c
 c      ---
 SDEF   CEL d1 POS 7.127 7.127 205 AXS 0 0 1 RAD d2 EXT d3 ERG d4
-SI1    L (100<104<199) 
+SI1    L (100<104[0 0 0]<199)
+SP1    1 
 SI2    0 0.4095                  $source radius
 SI3    205                       $position for the source height (+/-)
 SP4    -3 .902523 3.72033        $Cm244 SF watt spectrum
