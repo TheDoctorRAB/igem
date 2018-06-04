@@ -124,10 +124,10 @@ c
 c      ---
 c      corner pieces (welds)
 c      ---
-200    1 -1.00   10 -13 16 -19 23 -25  imp:n,p=1      $1 - bottom left
-201    1 -1.00   11 -14 16 -19 23 -25  imp:n,p=1      $2 - bottom right
-202    1 -1.00   10 -13 17 -20 23 -25  imp:n,p=1      $3 - top left  
-203    1 -1.00   11 -14 17 -20 23 -25  imp:n,p=1      $4 - top right
+200    1 -2.67988   10 -13 16 -19 23 -25  imp:n,p=1      $1 - bottom left
+201    1 -2.67988   11 -14 16 -19 23 -25  imp:n,p=1      $2 - bottom right
+202    1 -2.67988   10 -13 17 -20 23 -25  imp:n,p=1      $3 - top left  
+203    1 -2.67988   11 -14 17 -20 23 -25  imp:n,p=1      $4 - top right
 c      ---
 c      end
 c      ---
@@ -207,22 +207,22 @@ c
 c      ---
 c      cooling plates
 c      ---
-348    1 -1.00  -11 13 16 -19 23 -25 
+348    1 -2.67988  -11 13 16 -19 23 -25 
                 #300 #301 #304 #305 #308
                 #309 #312 #313 #340 #341 
                 #342 #343              imp:n,p=1      $148 - south plate
 c      ---
-349    1 -1.00  -11 13 17 -20 23 -25
+349    1 -2.67988  -11 13 17 -20 23 -25
                 #302 #303 #306 #307 #310
                 #311 #314 #315 #344 #345 
                 #346 #347              imp:n,p=1      $149 -  north plate
 c      ---
-350    1 -1.00   10 -13 -17 19 23 -25
+350    1 -2.67988   10 -13 -17 19 23 -25
                 #316 #317 #320 #321 #324
                 #325 #328 #329 #332 #333 
                 #334 #335              imp:n,p=1      $154 - west plate
 c      ---
-351    1 -1.00   11 -14 -17 19 23 -25
+351    1 -2.67988   11 -14 -17 19 23 -25
                 #318 #319 #322 #323 #326
                 #327 #330 #331 #336 #337 
                 #338 #339              imp:n,p=1      $155 - east plate
@@ -232,11 +232,11 @@ c
 c      ---
 c      cap
 c      ---
-352    1 -1.00   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness
+352    1 -2.67988   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness
 c      ---
 c      plug
 c      ---
-353    1 -1.00   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness
+353    1 -2.67988   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness
 c      ---
 999    0        -10:14:-16:20:-22:26   imp:n,p=0
 c      ---
@@ -385,7 +385,6 @@ c      physics
 c      ---
 c
 c      ---
-c      MORE is for neutrons
 c      LCA card provides LAHET physics options
 c      Bertini model is not used because it is not installed on berkeleium server
 c      LCA    2 1 2 0023 1 1 0 1 0 0
@@ -393,7 +392,7 @@ c      LCB    3500 3500 2500 2500 800 800 -1.0 -1.0
 c      ---
 c
 c      ---
-c      MORE   n
+MODE   N P
 c      ---
 c
 c      ---
@@ -405,11 +404,11 @@ c      source
 c      ---
 c
 c      ---
-c      SDEF   0 0 0 
-c      SDEF   CEL 100 POS 0 0 111.115 AXS 0 0 1 RAD d1 EXT d2 ERG d3
-c      SI1    0 22.23                  $source radius
-c      SI2    11.115                   $position for the source height (+/-)
-c      SP3    -3 .902523 3.72033       $Cm244 SF watt spectrum
+SDEF   CEL d1 POS 7.127 7.127 205 AXS 0 0 1 RAD d2 EXT d3 ERG d4
+SI1    L (100<104<199) 
+SI2    0 0.4095                  $source radius
+SI3    205                       $position for the source height (+/-)
+SP4    -3 .902523 3.72033        $Cm244 SF watt spectrum
 c      ---
 c
 c      ---
@@ -423,59 +422,42 @@ c
 c      ---
 c      surface flux
 c      ---
-c      FC2    alloy
-c      F2:N   10 11 12 T
-c      C2     0 1 T
+       FC2    west plate
+       F2:N   10
+       C2     0 1 T
 c
-c      FC12   crucible
-c      F12:N  13 14 T
-c      C12    0 1 T
+       FC12   east plate
+       F12:N  14 
+       C12    0 1 T
 c
-c      FC22   equipment
-c      F22:N  18 19 20 T
-c      C22    0 1 T
+       FC22   south plate
+       F22:N  16
+       C22    0 1 T
 c
-c      FC32   SW hot cell
-c      F32:N  61
-c      FS32   -52 -62
-c      SD32   2.0E+06 1.5E+04 2.0E+06
-c      C32    0 1 T
-c
-c      FC42   N hot cells
-c      F42:N  62
-c      FS42   -61 -51
-c      SD42   1.0E+06 1.5E+04 1.0E+06
-c      C42    0 1 T     
+       FC32   north plate
+       F32:N  20
+       C32    0 1 T
 c      ---
 c
 c      ---
 c      average cell flux
 c      ---
-c      FC4    source 
-c      F4:N   100
+       FC4    west plate 
+       F4:N   350
 c
-c      FC14   crucible
-c      F14:N  101
+       FC14   east plate
+       F14:N  351
 c
-c      FC24   inside equipment
-c      F24:N  102
+       FC24   south plate
+       F24:N  348
 c
-c      FC34   outside equipment, inside SE hot cell
-c      F34:N  104
-c
-c      FC44   SW hot cell    
-c      F44:N  110
-c
-c      FC54   NW hot cell
-c      F54:N  111
-c
-c      FC64   NE hot cell
-c      F64:N  112
+       FC34   north plate
+       F34:N  349
 c      ---
 c
 c      ---
 c      dose
-c      DF0    IU 2 FAC 1 LOG IC 10
+DF0    IU 2 FAC 1 LOG IC 10
 c      ---
 c
 c      ---
@@ -487,16 +469,42 @@ c      materials
 c      ---
 c
 c      ---
-c      borated-alumuinum
+c      borated-alumuinum - 10 wt% 2.67988 g/cc
 c      ---
-M1     3007.66c -1.0 
+M1     5011.66c   -0.078261
+       6012.66c   -0.021739
+       13027.66c  -0.900000
+c      ---
+c      borated-alumuinum - 30 wt% 2.64262 g/cc
+c      ---
+c M1     5011.66c   -0.234783                                                                                   
+c        6012.66c   -0.065217                                                                                   
+c        13027.66c  -0.700000 
+c      ---
+c      borated-alumuinum - 50 wt%  2.60638 g/cc
+c      ---
+c M1     5011.66c   -0.391305                                                                                   
+c        6012.66c   -0.108695                                                                                   
+c        13027.66c  -0.500000 
+c      ---
+c      borated-alumuinum - 70 wt%  2.57113 g/cc
+c      ---
+c M1     5011.66c   -0.547827                                                                                   
+c        6012.66c   -0.152173                                                                                   
+c        13027.66c  -0.300000
+c      ---
+c      borated-alumuinum - 90 wt%  2.53682 g/cc
+c      ---
+c M1     5011.66c   -0.704349                                                                                   
+c        6012.66c   -0.195651                                                                                   
+c        13027.66c  -0.100000 
 c      ---
 c
 c      ---
 c      used fuel
 c      ---
-M2     8016.66c  -0.6030
-       12000.66c -0.3970
+M2     
+c       
 c      ---                             
 c
 c      ---
@@ -550,8 +558,8 @@ c
 c      ---
 c      output
 c      ---
-c      PRINT  10 30 38 40 50 110 117 118 120 126 128 160 161 162 170
-c      PRDMP  1000000 -10
+PRINT  10 30 38 40 50 110 117 118 120 126 128 160 161 162 170
+PRDMP  1000000 -10
 c      ---
 c      end output
 c      ---
@@ -559,7 +567,7 @@ c
 c      ---
 c      particle history
 c      ---
-c      NPS    100000
+NPS    1000000
 c      ---
 c      end history
 c      ---
