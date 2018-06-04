@@ -440,22 +440,6 @@ C32    0 1 T
 c      ---
 c
 c      ---
-c      average cell flux
-c      ---
-FC4    west plate 
-F4:N   350
-c
-FC14   east plate
-F14:N  351
-c
-FC24   south plate
-F24:N  348
-c
-FC34   north plate
-F34:N  349
-c      ---
-c
-c      ---
 c      dose
 DF0    IU 2 FAC 1 LOG IC 10
 c      ---
@@ -504,7 +488,7 @@ c      ---
 c      used fuel - 10.97 g/cc theoretical density of uranium oxidei
 c      spontaneous fission neutron emission rate - 1.1410E+08 n/s
 c      ---
-M2     2004.70c      -2.192800e-06
+M2     2004.70c.70c      -2.192800e-06
        92234.70c     -1.720300e-04
        92235.70c     -8.597000e-03
        92236.70c     -3.732800e-03
@@ -650,13 +634,13 @@ c
 c      ---
 c      cladding
 c      ---
-M6     40000   -1.0                $Zr
+M6     40000.70c   -1.0                $Zr
 c      ---
 c
 c      ---
 c      cladding gap
 c      ---
-M7     2004    -1.0                $He
+M7     2004.70c    -1.0                $He
 c      ---
 c
 c      ---
