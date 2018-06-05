@@ -725,6 +725,14 @@ FC32   north plate
 F32:N  20
 C32    0 1 T
 c      ---
+FC42   cap
+F42:N  26
+C42    0 1 T
+c      ---
+FC52   plug
+F52:N  22
+C52    0 1 T
+c      ---
 c
 c      ---
 c      dose
