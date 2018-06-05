@@ -404,11 +404,19 @@ c      source
 c      ---
 c
 c      ---
-SDEF   CEL d1 POS 7.127 7.127 205 AXS 0 0 1 RAD d2 EXT d3 ERG d4
-SI1    L (100<104[0 0 0]<199)
-SP1    1 
-SI2    0 0.4095                  $source radius
-SI3    205                       $position for the source height (+/-)
+c       SDEF   CEL d1 POS 7.127 7.127 205 AXS 0 0 1 RAD d2 EXT d3 ERG d4
+SDEF   POS d1 ERG d4
+SI1    L  7.127  7.127 205          $row 1 - start at bottom left and move to the right
+          8.381  7.127 205
+          9.635  7.127 205
+          10.889 7.127 205
+          12.143 7.127 205
+          13.397 7.127 205
+          14.651 7.127 205
+c      SI1    L (100<104<199)
+SP1    1 6R
+c      SI2    0 0.4095                  $source radius
+c      SI3    205                       $position for the source height (+/-)
 SP4    -3 .902523 3.72033        $Cm244 SF watt spectrum
 c      ---
 c
@@ -666,7 +674,7 @@ c
 c      ---
 c      particle history
 c      ---
-NPS    1000000
+NPS    10000
 c      ---
 c      end history
 c      ---
