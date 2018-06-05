@@ -404,8 +404,7 @@ c      source
 c      ---
 c
 c      ---
-c       SDEF   CEL d1 POS 7.127 7.127 205 AXS 0 0 1 RAD d2 EXT d3 ERG d4
-SDEF   POS d1 ERG d4
+SDEF   POS d1 ERG d2                $remember SP1 has to have the same number of entries as sources
 SI1    L  7.127  7.127 205          $row 1 - start at bottom left and move to the right
           8.381  7.127 205
           9.635  7.127 205
@@ -413,11 +412,8 @@ SI1    L  7.127  7.127 205          $row 1 - start at bottom left and move to th
           12.143 7.127 205
           13.397 7.127 205
           14.651 7.127 205
-c      SI1    L (100<104<199)
 SP1    1 6R
-c      SI2    0 0.4095                  $source radius
-c      SI3    205                       $position for the source height (+/-)
-SP4    -3 .902523 3.72033        $Cm244 SF watt spectrum
+SP2    -3 .902523 3.72033        $Cm244 SF watt spectrum
 c      ---
 c
 c      ---
@@ -464,40 +460,40 @@ c
 c      ---
 c      borated-alumuinum - 10 wt% 2.67988 g/cc
 c      ---
-M1     5011   -0.078261
-       6012   -0.021739
-       13027  -0.900000
+M1     5011.70c   -0.078261
+       6012.70c  -0.021739
+       13027.70c  -0.900000
 c      ---
 c      borated-alumuinum - 30 wt% 2.64262 g/cc
 c      ---
-c M1     5011   -0.234783                                                                                   
-c        6012   -0.065217                                                                                   
-c        13027  -0.700000 
+c M1     5011.70c   -0.234783                                                                                   
+c        6012.70c   -0.065217                                                                                   
+c        13027.70c  -0.700000 
 c      ---
 c      borated-alumuinum - 50 wt%  2.60638 g/cc
 c      ---
-c M1     5011   -0.391305                                                                                   
-c        6012   -0.108695                                                                                   
-c        13027  -0.500000 
+c M1     5011.70c   -0.391305                                                                                   
+c        6012.70c   -0.108695                                                                                   
+c        13027.70c  -0.500000 
 c      ---
 c      borated-alumuinum - 70 wt%  2.57113 g/cc
 c      ---
-c M1     5011   -0.547827                                                                                   
-c        6012   -0.152173                                                                                   
-c        13027  -0.300000
+c M1     5011.70c   -0.547827                                                                                   
+c        6012.70c   -0.152173                                                                                   
+c        13027.70c  -0.300000
 c      ---
 c      borated-alumuinum - 90 wt%  2.53682 g/cc
 c      ---
-c M1     5011   -0.704349                                                                                   
-c        6012   -0.195651                                                                                   
-c        13027  -0.100000 
+c M1     5011.70c   -0.704349                                                                                   
+c        6012.70c   -0.195651                                                                                   
+c        13027.70c  -0.100000 
 c      ---
 c
 c      ---
 c      used fuel - 10.97 g/cc theoretical density of uranium oxidei
 c      spontaneous fission neutron emission rate - 1.1410E+08 n/s
 c      ---
-M2     2004.70c.70c      -2.192800e-06
+M2     2004.70c      -2.192800e-06
        92234.70c     -1.720300e-04
        92235.70c     -8.597000e-03
        92236.70c     -3.732800e-03
@@ -617,33 +613,33 @@ c
 c      ---
 c      stainless steel 316
 c      ---
-M3     14000   -0.010000           $Si
-       24000   -0.170000           $Cr
-       25055   -0.020000           $Mn
-       26000   -0.655000           $Fe
-       28000   -0.120000           $Ni
-       42000   -0.025000           $Mo
+M3     14000.70c   -0.010000           $Si
+       24000.70c   -0.170000           $Cr
+       25055.70c   -0.020000           $Mn
+       26000.70c   -0.655000           $Fe
+       28000.70c   -0.120000           $Ni
+       42000.70c   -0.025000           $Mo
 c      ---
 c
 c      ---
 c      cooling fluid
 c      ---
-M4     1001    -0.111894           $H
-       8016    -0.888106           $O
+M4     1001.70c    -0.111894           $H
+       8016.70c    -0.888106           $O
 c      ---
 c
 c      ---
 c      air
 c      ---
-M5     6000    -0.000124           $C
-       7014    -0.755268           $N
-       8016    -0.231781           $O
-       18000   -0.012827           $Ar
+M5     6000.70c    -0.000124           $C
+       7014.70c    -0.755268           $N
+       8016.70c    -0.231781           $O
+       18000.70c   -0.012827           $Ar
 c
 c      ---
 c      cladding
 c      ---
-M6     40000.70c   -1.0                $Zr
+M6     40000.66c   -1.0                $Zr
 c      ---
 c
 c      ---
