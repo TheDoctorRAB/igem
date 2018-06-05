@@ -317,8 +317,8 @@ c      ---
 c      ---
 62     tx 0.75 8.9545   402.4 3.72725 0.25 0.25       $201 - fluid - west plate 1 - change z for height
 63     tx 0.75 8.9545   402.4 3.72725 0.30 0.30       $202 - pipe - west plate 1 - change z for height
-64     tx 0.75 23.86035 402.4 3.72725 0.25 0.25       $203 - fluid - west plate 2 - change z for height
-65     tx 0.75 23.86035 402.4 3.72725 0.30 0.30       $204 - pipe - west plate 2 - change z for height
+64     tx 0.75 23.8635  402.4 3.72725 0.25 0.25       $203 - fluid - west plate 2 - change z for height
+65     tx 0.75 23.8635  402.4 3.72725 0.30 0.30       $204 - pipe - west plate 2 - change z for height
 c      ---
 66     tx 33.568 8.9545   402.4 3.72725 0.25 0.25     $211 - fluid - east plate 1 - change z for height
 67     tx 33.568 8.9545   402.4 3.72725 0.30 0.30     $212 - pipe - east plate 1 - change z for height
