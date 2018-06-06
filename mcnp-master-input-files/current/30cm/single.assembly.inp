@@ -256,84 +256,84 @@ c      surface cards
 c      -----------
 c
 c      ---
-10     px -4.5                                        $1
+10     px -28.5                                       $1
 11     px  32.818                                     $2 - plate width + plate thickness
 13     px  1.5                                        $4 - plate thickness
-14     px  38.818                                     $5 - plate width + 2*plate thickness
+14     px  62.818                                     $5 - plate width + 2*plate thickness
 c      ---
-16     py -4.5                                        $11
+16     py -28.5                                       $11
 17     py  32.818                                     $12 - plate width + plate thickness
 19     py  1.5                                        $14 - plate thickness
-20     py  38.818                                     $15 - plate width + 2*plate thickness
+20     py  62.818                                     $15 - plate width + 2*plate thickness
 c      ---
-22     pz -6.0                                        $400 - plate thickness
+22     pz -30.0                                       $400 - plate thickness
 23     pz  0                                          $401
 24     pz  402.4                                      $402 - pipe height - 7.6 cm below height of plate
 25     pz  410                                        $403 - plate height
-26     pz  416                                        $404 - plate height + plate thickness
+26     pz  440                                        $404 - plate height + plate thickness
 c      ---
 c      cylinder position in plate changes with plate thickness - halfway in
 c      surface 24 dimension changes on 62 - 77
 c      ---
-30     c/z 5.41475  -1.50   0.25                       $80 - fluid radius/pipe IR - south plate 1
-31     c/z 5.41475  -1.50   0.30                       $81 - pipe OR - south plate 1
-32     c/z 5.41475  35.818 0.25                       $100 - fluid radius/pipe IR - north plate 1
-33     c/z 5.41475  35.818 0.30                       $101 - pipe OR - north plate 1
+30     c/z 5.41475  -13.50   0.25                     $80 - fluid radius/pipe IR - south plate 1
+31     c/z 5.41475  -13.50   0.30                     $81 - pipe OR - south plate 1
+32     c/z 5.41475  47.818 0.25                       $100 - fluid radius/pipe IR - north plate 1
+33     c/z 5.41475  47.818 0.30                       $101 - pipe OR - north plate 1
 c      ---
-34     c/z 13.24425 -1.50   0.25                       $84 - fluid radius/pipe IR - south plate 2
-35     c/z 13.24425 -1.50   0.30                       $85 - pipe OR - south plate 2
-36     c/z 13.24425 35.818 0.25                       $104 - fluid radius/pipe IR - north plate 2
-37     c/z 13.24425 35.818 0.30                       $105 - pipe OR - north plate 2
+34     c/z 13.24425 -13.50   0.25                     $84 - fluid radius/pipe IR - south plate 2
+35     c/z 13.24425 -13.50   0.30                     $85 - pipe OR - south plate 2
+36     c/z 13.24425 47.818 0.25                       $104 - fluid radius/pipe IR - north plate 2
+37     c/z 13.24425 47.818 0.30                       $105 - pipe OR - north plate 2
 c      ---
-38     c/z 21.07375 -1.50   0.25                       $88 - fluid radius/pipe IR - south plate 3
-39     c/z 21.07375 -1.50   0.30                       $89 - pipe OR - south plate 3
-40     c/z 21.07375 35.818 0.25                       $108 - fluid radius/pipe IR north plate 3
-41     c/z 21.07375 35.818 0.30                       $109 - pipe OR - north plate 3
+38     c/z 21.07375 -13.50   0.25                     $88 - fluid radius/pipe IR - south plate 3
+39     c/z 21.07375 -13.50   0.30                     $89 - pipe OR - south plate 3
+40     c/z 21.07375 47.818 0.25                       $108 - fluid radius/pipe IR north plate 3
+41     c/z 21.07375 47.818 0.30                       $109 - pipe OR - north plate 3
 c      ---
-42     c/z 28.90325 -1.50   0.25                       $92 - fluid radius/pipe IR - south plate 4
-43     c/z 28.90325 -1.50   0.30                       $93 - pipe OR - south plate 4
-44     c/z 28.90325 35.818 0.25                       $112 - fluid radius/pipe IR - north plate 4
-45     c/z 28.90325 35.818 0.30                       $113 - pipe OR - north plate 4
+42     c/z 28.90325 -13.50   0.25                     $92 - fluid radius/pipe IR - south plate 4
+43     c/z 28.90325 -13.50   0.30                     $93 - pipe OR - south plate 4
+44     c/z 28.90325 47.818 0.25                       $112 - fluid radius/pipe IR - north plate 4
+45     c/z 28.90325 47.818 0.30                       $113 - pipe OR - north plate 4
 c      ---
-46     c/z -1.50   5.41475  0.25                       $20 - fluid radius/pipe IR - west plate 1
-47     c/z -1.50   5.41475  0.30                       $21 - pipe OR - west plate 1
-48     c/z 35.818 5.41475  0.25                       $40 - fluid radius/pipe IR - east plate 1
-49     c/z 35.818 5.41475  0.30                       $41 - pipe OR - east plate 1
+46     c/z -13.50   5.41475  0.25                     $20 - fluid radius/pipe IR - west plate 1
+47     c/z -13.50   5.41475  0.30                     $21 - pipe OR - west plate 1
+48     c/z 47.818 5.41475  0.25                       $40 - fluid radius/pipe IR - east plate 1
+49     c/z 47.818 5.41475  0.30                       $41 - pipe OR - east plate 1
 c      ---
-50     c/z -1.50   13.24425 0.25                       $24 - fluid radius/pipe IR - west plate 2
-51     c/z -1.50   13.24425 0.30                       $25 - pipe OR - west plate 2
-52     c/z 35.818 13.24425 0.25                       $44 - fluid radius/pipe IR - east plate 2
-53     c/z 35.818 13.24425 0.30                       $45 - pipe OR - east plate 2
+50     c/z -13.50   13.24425 0.25                     $24 - fluid radius/pipe IR - west plate 2
+51     c/z -13.50   13.24425 0.30                     $25 - pipe OR - west plate 2
+52     c/z 47.818 13.24425 0.25                       $44 - fluid radius/pipe IR - east plate 2
+53     c/z 47.818 13.24425 0.30                       $45 - pipe OR - east plate 2
 c      ---
-54     c/z -1.50   21.07375 0.25                       $28 - fluid radius/pipe IR - west plate 3
-55     c/z -1.50   21.07375 0.30                       $29 - pipe OR - west plate 3
-56     c/z 35.818 21.07375 0.25                       $48 - fluid radius/pipe IR east plate 3
-57     c/z 35.818 21.07375 0.30                       $49 - pipe OR - east plate 3
+54     c/z -13.50   21.07375 0.25                     $28 - fluid radius/pipe IR - west plate 3
+55     c/z -13.50   21.07375 0.30                     $29 - pipe OR - west plate 3
+56     c/z 47.818 21.07375 0.25                       $48 - fluid radius/pipe IR east plate 3
+57     c/z 47.818 21.07375 0.30                       $49 - pipe OR - east plate 3
 c      ---
-58     c/z -1.50   28.90325 0.25                       $32 - fluid radius/pipe IR - west plate 4
-59     c/z -1.50   28.90325 0.30                       $33 - pipe OR - west plate 4
-60     c/z 35.818 28.90325 0.25                       $52 - fluid radius/pipe IR - east plate 4
-61     c/z 35.818 28.90325 0.30                       $53 - pipe OR - east plate 4
+58     c/z -13.50   28.90325 0.25                     $32 - fluid radius/pipe IR - west plate 4
+59     c/z -13.50   28.90325 0.30                     $33 - pipe OR - west plate 4
+60     c/z 47.818 28.90325 0.25                       $52 - fluid radius/pipe IR - east plate 4
+61     c/z 47.818 28.90325 0.30                       $53 - pipe OR - east plate 4
 c      ---
-62     tx -1.50 9.3295   402.4 3.91475 0.25 0.25       $201 - fluid - west plate 1 - change z for height
-63     tx -1.50 9.3295   402.4 3.91475 0.30 0.30       $202 - pipe - west plate 1 - change z for height
-64     tx -1.50 24.98850  402.4 3.91475 0.25 0.25       $203 - fluid - west plate 2 - change z for height
-65     tx -1.50 24.98850  402.4 3.91475 0.30 0.30       $204 - pipe - west plate 2 - change z for height
+62     tx -13.50 9.3295   402.4 3.91475 0.25 0.25     $201 - fluid - west plate 1 - change z for height
+63     tx -13.50 9.3295   402.4 3.91475 0.30 0.30     $202 - pipe - west plate 1 - change z for height
+64     tx -13.50 24.98850  402.4 3.91475 0.25 0.25    $203 - fluid - west plate 2 - change z for height
+65     tx -13.50 24.98850  402.4 3.91475 0.30 0.30    $204 - pipe - west plate 2 - change z for height
 c      ---
-66     tx 35.818 9.3295   402.4 3.91475 0.25 0.25     $211 - fluid - east plate 1 - change z for height
-67     tx 35.818 9.3295   402.4 3.91475 0.30 0.30     $212 - pipe - east plate 1 - change z for height
-68     tx 35.818 24.9885  402.4 3.91475 0.25 0.25     $213 - fluid - east plate 2 - change z for height
-69     tx 35.818 24.9885  402.4 3.91475 0.30 0.30     $214 - pipe - east plate 2 - change z for height
+66     tx 47.818 9.3295   402.4 3.91475 0.25 0.25     $211 - fluid - east plate 1 - change z for height
+67     tx 47.818 9.3295   402.4 3.91475 0.30 0.30     $212 - pipe - east plate 1 - change z for height
+68     tx 47.818 24.9885  402.4 3.91475 0.25 0.25     $213 - fluid - east plate 2 - change z for height
+69     tx 47.818 24.9885  402.4 3.91475 0.30 0.30     $214 - pipe - east plate 2 - change z for height
 c      ---
-70     ty 9.3295   -1.50   402.4 3.91475 0.25 0.25     $301 - fluid - south plate 1 - change z for height
-71     ty 9.3295   -1.50   402.4 3.91475 0.30 0.30     $302 - pipe - south plate 1 - change z for height
-72     ty 24.9885  -1.50   402.4 3.91475 0.25 0.25     $303 - fluid - south plate 2 - change z for height
-73     ty 24.9885  -1.50   402.4 3.91475 0.30 0.30     $304 - pipe - south plate 2 - change z for height
+70     ty 9.3295   -13.50   402.4 3.91475 0.25 0.25   $301 - fluid - south plate 1 - change z for height
+71     ty 9.3295   -13.50   402.4 3.91475 0.30 0.30   $302 - pipe - south plate 1 - change z for height
+72     ty 24.9885  -13.50   402.4 3.91475 0.25 0.25   $303 - fluid - south plate 2 - change z for height
+73     ty 24.9885  -13.50   402.4 3.91475 0.30 0.30   $304 - pipe - south plate 2 - change z for height
 c      ---
-74     ty 9.3295   35.818 402.4 3.91475 0.25 0.25     $311 - fluid - north plate 1 - change z for height
-75     ty 9.3295   35.818 402.4 3.91475 0.30 0.30     $312 - pipe - north plate 1 - change z for height
-76     ty 24.9885  35.818 402.4 3.91475 0.25 0.25     $313 - fluid - north plate 2 - change z for height
-77     ty 24.9885  35.818 402.4 3.91475 0.30 0.30     $314 - pipe - north plate 2 - change z for height
+74     ty 9.3295   47.818 402.4 3.91475 0.25 0.25     $311 - fluid - north plate 1 - change z for height
+75     ty 9.3295   47.818 402.4 3.91475 0.30 0.30     $312 - pipe - north plate 1 - change z for height
+76     ty 24.9885  47.818 402.4 3.91475 0.25 0.25     $313 - fluid - north plate 2 - change z for height
+77     ty 24.9885  47.818 402.4 3.91475 0.30 0.30     $314 - pipe - north plate 2 - change z for height
 c      ---
 c
 c      ---
