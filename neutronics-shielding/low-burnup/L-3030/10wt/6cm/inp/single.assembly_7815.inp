@@ -256,84 +256,84 @@ c      surface cards
 c      -----------
 c
 c      ---
-10     px  0                                          $1
+10     px -4.5                                        $1
 11     px  32.818                                     $2 - plate width + plate thickness
 13     px  1.5                                        $4 - plate thickness
-14     px  34.318                                     $5 - plate width + 2*plate thickness
+14     px  38.818                                     $5 - plate width + 2*plate thickness
 c      ---
-16     py  0                                          $11
+16     py -4.5                                        $11
 17     py  32.818                                     $12 - plate width + plate thickness
 19     py  1.5                                        $14 - plate thickness
-20     py  34.318                                     $15 - plate width + 2*plate thickness
+20     py  38.818                                     $15 - plate width + 2*plate thickness
 c      ---
-22     pz -1.5                                        $400 - plate thickness
+22     pz -6.0                                        $400 - plate thickness
 23     pz  0                                          $401
 24     pz  402.4                                      $402 - pipe height - 7.6 cm below height of plate
 25     pz  410                                        $403 - plate height
-26     pz  411.5                                      $404 - plate height + plate thickness
+26     pz  416                                        $404 - plate height + plate thickness
 c      ---
 c      cylinder position in plate changes with plate thickness - halfway in
 c      surface 24 dimension changes on 62 - 77
 c      ---
-30     c/z 5.41475  0.75   0.25                       $80 - fluid radius/pipe IR - south plate 1
-31     c/z 5.41475  0.75   0.30                       $81 - pipe OR - south plate 1
-32     c/z 5.41475  33.568 0.25                       $100 - fluid radius/pipe IR - north plate 1
-33     c/z 5.41475  33.568 0.30                       $101 - pipe OR - north plate 1
+30     c/z 5.41475  -1.50   0.25                       $80 - fluid radius/pipe IR - south plate 1
+31     c/z 5.41475  -1.50   0.30                       $81 - pipe OR - south plate 1
+32     c/z 5.41475  35.818 0.25                       $100 - fluid radius/pipe IR - north plate 1
+33     c/z 5.41475  35.818 0.30                       $101 - pipe OR - north plate 1
 c      ---
-34     c/z 13.24425 0.75   0.25                       $84 - fluid radius/pipe IR - south plate 2
-35     c/z 13.24425 0.75   0.30                       $85 - pipe OR - south plate 2
-36     c/z 13.24425 33.568 0.25                       $104 - fluid radius/pipe IR - north plate 2
-37     c/z 13.24425 33.568 0.30                       $105 - pipe OR - north plate 2
+34     c/z 13.24425 -1.50   0.25                       $84 - fluid radius/pipe IR - south plate 2
+35     c/z 13.24425 -1.50   0.30                       $85 - pipe OR - south plate 2
+36     c/z 13.24425 35.818 0.25                       $104 - fluid radius/pipe IR - north plate 2
+37     c/z 13.24425 35.818 0.30                       $105 - pipe OR - north plate 2
 c      ---
-38     c/z 21.07375 0.75   0.25                       $88 - fluid radius/pipe IR - south plate 3
-39     c/z 21.07375 0.75   0.30                       $89 - pipe OR - south plate 3
-40     c/z 21.07375 33.568 0.25                       $108 - fluid radius/pipe IR north plate 3
-41     c/z 21.07375 33.568 0.30                       $109 - pipe OR - north plate 3
+38     c/z 21.07375 -1.50   0.25                       $88 - fluid radius/pipe IR - south plate 3
+39     c/z 21.07375 -1.50   0.30                       $89 - pipe OR - south plate 3
+40     c/z 21.07375 35.818 0.25                       $108 - fluid radius/pipe IR north plate 3
+41     c/z 21.07375 35.818 0.30                       $109 - pipe OR - north plate 3
 c      ---
-42     c/z 28.90325 0.75   0.25                       $92 - fluid radius/pipe IR - south plate 4
-43     c/z 28.90325 0.75   0.30                       $93 - pipe OR - south plate 4
-44     c/z 28.90325 33.568 0.25                       $112 - fluid radius/pipe IR - north plate 4
-45     c/z 28.90325 33.568 0.30                       $113 - pipe OR - north plate 4
+42     c/z 28.90325 -1.50   0.25                       $92 - fluid radius/pipe IR - south plate 4
+43     c/z 28.90325 -1.50   0.30                       $93 - pipe OR - south plate 4
+44     c/z 28.90325 35.818 0.25                       $112 - fluid radius/pipe IR - north plate 4
+45     c/z 28.90325 35.818 0.30                       $113 - pipe OR - north plate 4
 c      ---
-46     c/z 0.75   5.41475  0.25                       $20 - fluid radius/pipe IR - west plate 1
-47     c/z 0.75   5.41475  0.30                       $21 - pipe OR - west plate 1
-48     c/z 33.568 5.41475  0.25                       $40 - fluid radius/pipe IR - east plate 1
-49     c/z 33.568 5.41475  0.30                       $41 - pipe OR - east plate 1
+46     c/z -1.50   5.41475  0.25                       $20 - fluid radius/pipe IR - west plate 1
+47     c/z -1.50   5.41475  0.30                       $21 - pipe OR - west plate 1
+48     c/z 35.818 5.41475  0.25                       $40 - fluid radius/pipe IR - east plate 1
+49     c/z 35.818 5.41475  0.30                       $41 - pipe OR - east plate 1
 c      ---
-50     c/z 0.75   13.24425 0.25                       $24 - fluid radius/pipe IR - west plate 2
-51     c/z 0.75   13.24425 0.30                       $25 - pipe OR - west plate 2
-52     c/z 33.568 13.24425 0.25                       $44 - fluid radius/pipe IR - east plate 2
-53     c/z 33.568 13.24425 0.30                       $45 - pipe OR - east plate 2
+50     c/z -1.50   13.24425 0.25                       $24 - fluid radius/pipe IR - west plate 2
+51     c/z -1.50   13.24425 0.30                       $25 - pipe OR - west plate 2
+52     c/z 35.818 13.24425 0.25                       $44 - fluid radius/pipe IR - east plate 2
+53     c/z 35.818 13.24425 0.30                       $45 - pipe OR - east plate 2
 c      ---
-54     c/z 0.75   21.07375 0.25                       $28 - fluid radius/pipe IR - west plate 3
-55     c/z 0.75   21.07375 0.30                       $29 - pipe OR - west plate 3
-56     c/z 33.568 21.07375 0.25                       $48 - fluid radius/pipe IR east plate 3
-57     c/z 33.568 21.07375 0.30                       $49 - pipe OR - east plate 3
+54     c/z -1.50   21.07375 0.25                       $28 - fluid radius/pipe IR - west plate 3
+55     c/z -1.50   21.07375 0.30                       $29 - pipe OR - west plate 3
+56     c/z 35.818 21.07375 0.25                       $48 - fluid radius/pipe IR east plate 3
+57     c/z 35.818 21.07375 0.30                       $49 - pipe OR - east plate 3
 c      ---
-58     c/z 0.75   28.90325 0.25                       $32 - fluid radius/pipe IR - west plate 4
-59     c/z 0.75   28.90325 0.30                       $33 - pipe OR - west plate 4
-60     c/z 33.568 28.90325 0.25                       $52 - fluid radius/pipe IR - east plate 4
-61     c/z 33.568 28.90325 0.30                       $53 - pipe OR - east plate 4
+58     c/z -1.50   28.90325 0.25                       $32 - fluid radius/pipe IR - west plate 4
+59     c/z -1.50   28.90325 0.30                       $33 - pipe OR - west plate 4
+60     c/z 35.818 28.90325 0.25                       $52 - fluid radius/pipe IR - east plate 4
+61     c/z 35.818 28.90325 0.30                       $53 - pipe OR - east plate 4
 c      ---
-62     tx 0.75 9.3295   402.4 3.91475 0.25 0.25       $201 - fluid - west plate 1 - change z for height
-63     tx 0.75 9.3295   402.4 3.91475 0.30 0.30       $202 - pipe - west plate 1 - change z for height
-64     tx 0.75 24.98850  402.4 3.91475 0.25 0.25       $203 - fluid - west plate 2 - change z for height
-65     tx 0.75 24.98850  402.4 3.91475 0.30 0.30       $204 - pipe - west plate 2 - change z for height
+62     tx -1.50 9.3295   402.4 3.91475 0.25 0.25       $201 - fluid - west plate 1 - change z for height
+63     tx -1.50 9.3295   402.4 3.91475 0.30 0.30       $202 - pipe - west plate 1 - change z for height
+64     tx -1.50 24.98850  402.4 3.91475 0.25 0.25       $203 - fluid - west plate 2 - change z for height
+65     tx -1.50 24.98850  402.4 3.91475 0.30 0.30       $204 - pipe - west plate 2 - change z for height
 c      ---
-66     tx 33.568 9.3295   402.4 3.91475 0.25 0.25     $211 - fluid - east plate 1 - change z for height
-67     tx 33.568 9.3295   402.4 3.91475 0.30 0.30     $212 - pipe - east plate 1 - change z for height
-68     tx 33.568 24.9885  402.4 3.91475 0.25 0.25     $213 - fluid - east plate 2 - change z for height
-69     tx 33.568 24.9885  402.4 3.91475 0.30 0.30     $214 - pipe - east plate 2 - change z for height
+66     tx 35.818 9.3295   402.4 3.91475 0.25 0.25     $211 - fluid - east plate 1 - change z for height
+67     tx 35.818 9.3295   402.4 3.91475 0.30 0.30     $212 - pipe - east plate 1 - change z for height
+68     tx 35.818 24.9885  402.4 3.91475 0.25 0.25     $213 - fluid - east plate 2 - change z for height
+69     tx 35.818 24.9885  402.4 3.91475 0.30 0.30     $214 - pipe - east plate 2 - change z for height
 c      ---
-70     ty 9.3295   0.75   402.4 3.91475 0.25 0.25     $301 - fluid - south plate 1 - change z for height
-71     ty 9.3295   0.75   402.4 3.91475 0.30 0.30     $302 - pipe - south plate 1 - change z for height
-72     ty 24.9885  0.75   402.4 3.91475 0.25 0.25     $303 - fluid - south plate 2 - change z for height
-73     ty 24.9885  0.75   402.4 3.91475 0.30 0.30     $304 - pipe - south plate 2 - change z for height
+70     ty 9.3295   -1.50   402.4 3.91475 0.25 0.25     $301 - fluid - south plate 1 - change z for height
+71     ty 9.3295   -1.50   402.4 3.91475 0.30 0.30     $302 - pipe - south plate 1 - change z for height
+72     ty 24.9885  -1.50   402.4 3.91475 0.25 0.25     $303 - fluid - south plate 2 - change z for height
+73     ty 24.9885  -1.50   402.4 3.91475 0.30 0.30     $304 - pipe - south plate 2 - change z for height
 c      ---
-74     ty 9.3295   33.568 402.4 3.91475 0.25 0.25     $311 - fluid - north plate 1 - change z for height
-75     ty 9.3295   33.568 402.4 3.91475 0.30 0.30     $312 - pipe - north plate 1 - change z for height
-76     ty 24.9885  33.568 402.4 3.91475 0.25 0.25     $313 - fluid - north plate 2 - change z for height
-77     ty 24.9885  33.568 402.4 3.91475 0.30 0.30     $314 - pipe - north plate 2 - change z for height
+74     ty 9.3295   35.818 402.4 3.91475 0.25 0.25     $311 - fluid - north plate 1 - change z for height
+75     ty 9.3295   35.818 402.4 3.91475 0.30 0.30     $312 - pipe - north plate 1 - change z for height
+76     ty 24.9885  35.818 402.4 3.91475 0.25 0.25     $313 - fluid - north plate 2 - change z for height
+77     ty 24.9885  35.818 402.4 3.91475 0.30 0.30     $314 - pipe - north plate 2 - change z for height
 c      ---
 c
 c      ---
@@ -1039,9 +1039,9 @@ c
 c      ---
 c      borated-alumuinum - 10 wt% 2.67988 g/cc
 c      ---
-c  M1     5011.70c   -0.078261
-c         6012.42c   -0.021739
-c         13027.70c  -0.900000
+M1     5011.70c   -0.078261
+       6012.42c   -0.021739
+       13027.70c  -0.900000
 c      ---
 c      borated-alumuinum - 30 wt% 2.64262 g/cc
 c      ---
@@ -1051,9 +1051,9 @@ c        13027.70c  -0.700000
 c      ---
 c      borated-alumuinum - 50 wt%  2.60638 g/cc
 c      ---
-M1     5011.70c   -0.391305                                                                              
-       6012.42c   -0.108695                 
-       13027.70c  -0.500000 
+c M1     5011.70c   -0.391305                                                                              
+c        6012.42c   -0.108695                 
+c        13027.70c  -0.500000 
 c      ---
 c      borated-alumuinum - 70 wt%  2.57113 g/cc
 c      ---
@@ -1072,120 +1072,7 @@ c      ---
 c      used fuel - 10.97 g/cc theoretical density of uranium oxide
 c      spontaneous fission neutron emission rate - BASED ON FUEL TYPE, BURNUP, COOLING TIME
 c      ---
-M2     2004.70c      -2.192800e-06
-       92234.70c     -1.720300e-04
-       92235.70c     -8.597000e-03
-       92236.70c     -3.732800e-03
-       92238.70c     -9.465700e-01
-       93237.70c     -3.893700e-04
-       94238.70c     -1.038600e-04
-       94239.70c     -5.307000e-03
-       94240.70c     -1.931100e-03
-       94241.70c     -5.465000e-04
-       94242.70c     -4.732600e-04
-       95241.70c     -8.973600e-04
-       95243.70c     -7.666500e-05
-       96244.70c     -1.033800e-05
-       96245.70c     -1.036500e-06
-       34078.70c     -2.061500e-06
-       34079.70c     -4.406500e-06
-       34080.70c     -1.151800e-05
-       35081.70c     -1.919600e-05
-       34082.70c     -3.022400e-05
-       36083.70c     -3.819800e-05
-       36084.70c     -9.818600e-05
-       36085.70c     -6.436700e-06
-       37085.70c     -1.054800e-04
-       36086.70c     -1.673500e-04
-       37087.70c     -2.201200e-04
-       38088.70c     -3.060100e-04
-       39089.70c     -4.087800e-04
-       38090.70c     -3.053200e-04
-       40090.70c     -1.984500e-04
-       40091.70c     -5.341300e-04
-       40092.70c     -5.809800e-04
-       40093.70c     -6.434000e-04
-       40094.70c     -6.890400e-04
-       42095.70c     -6.978100e-04
-       40096.70c     -7.318000e-04
-       42096.70c     -2.284200e-05
-       42097.70c     -7.289200e-04
-       42098.70c     -7.519100e-04
-       43099.70c     -7.345600e-04
-       42100.70c     -8.521900e-04
-       44100.70c     -7.534000e-05
-       44101.70c     -7.131400e-04
-       44102.70c     -7.214900e-04
-       45103.70c     -4.797100e-04
-       44104.70c     -5.083100e-04
-       46104.70c     -1.585300e-04
-       46105.70c     -3.412100e-04
-       46106.70c     -3.561700e-04
-       46107.70c     -2.019400e-04
-       46108.70c     -1.323800e-04
-       47109.70c     -7.286900e-05
-       46110.70c     -4.355600e-05
-       48110.70c     -2.703000e-05
-       48111.70c     -2.126800e-05
-       48112.70c     -1.107000e-05
-       48114.70c     -1.320300e-05
-       49115.70c     -1.933700e-06
-       48116.70c     -4.991100e-06
-       50116.70c     -2.739300e-06
-       50117.70c     -4.545600e-06
-       50118.70c     -4.234300e-06
-       50119.70c     -4.190500e-06
-       50120.70c     -4.223800e-06
-       51121.70c     -4.179600e-06
-       50122.70c     -5.384300e-06
-       51123.70c     -5.351800e-06
-       50124.70c     -8.562200e-06
-       52125.70c     -1.130300e-05
-       50126.70c     -1.859200e-05
-       53127.70c     -4.046400e-05
-       52128.70c     -8.618000e-05
-       54128.70c     -1.968600e-06
-       53129.70c     -1.425000e-04
-       52130.70c     -3.432900e-04
-       54130.70c     -4.905900e-06
-       54131.70c     -4.140300e-04
-       54132.70c     -9.764900e-04
-       55133.70c     -1.050300e-03
-       54134.70c     -1.384000e-03
-       56134.70c     -1.312300e-04
-       55135.70c     -2.119400e-04
-       54136.70c     -2.228000e-03
-       56136.70c     -1.165700e-05
-       55137.70c     -7.109800e-04
-       56137.70c     -4.346300e-04
-       56138.70c     -1.181000e-03
-       57139.70c     -1.108600e-03
-       58140.70c     -1.151100e-03
-       59141.70c     -1.013000e-03
-       58142.70c     -1.026400e-03
-       60142.70c     -1.413900e-05
-       60143.70c     -7.589900e-04
-       60144.70c     -1.162500e-03
-       60145.70c     -6.211600e-04
-       60146.70c     -6.180700e-04
-       61147.70c     -1.063900e-06
-       62147.70c     -2.450500e-04
-       60148.70c     -3.435600e-04
-       62148.70c     -9.848900e-05
-       62149.70c     -4.560400e-06
-       60150.70c     -1.620900e-04
-       62150.70c     -2.872200e-04
-       62151.70c     -9.928100e-06
-       63151.70c     -1.658800e-06
-       62152.70c     -1.023600e-04
-       63153.70c     -1.047300e-04
-       62154.70c     -3.513000e-05
-       63154.70c     -4.306800e-06
-       64154.70c     -1.806800e-05
-       64155.70c     -6.877600e-06
-       64156.70c     -6.504200e-05
-       64158.70c     -1.601600e-05
-       65159.70c     -2.183800e-06
+M2     6000.70c    -1.000000
 c       
 c      ---                             
 c
@@ -1241,7 +1128,7 @@ c      ---
 c      output
 c      ---
 PRINT  10 30 38 40 50 110 117 118 120 126 128 160 161 162 170
-PRDMP  10000 -10
+PRDMP  100000 -10
 c      ---
 c      end output
 c      ---
@@ -1249,7 +1136,7 @@ c
 c      ---
 c      particle history
 c      ---
-NPS    100000
+NPS    1000000
 c      ---
 c      end history
 c      ---
