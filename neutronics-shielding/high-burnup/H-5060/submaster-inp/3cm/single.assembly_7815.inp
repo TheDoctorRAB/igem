@@ -1070,7 +1070,7 @@ c      ---
 c
 c      ---
 c      used fuel - 10.97 g/cc theoretical density of uranium oxide
-c      spontaneous fission neutron emission rate - BASED ON FUEL TYPE, BURNUP, COOLING TIME
+c      spontaneous fission neutron emission rate - 8.8398E+08 n/s
 c      ---
 M2      2004.70c      -5.983300e-06
         92234.70c     -1.782900e-04

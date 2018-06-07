@@ -1030,24 +1030,24 @@ c      ---
 c
 c      ---
 c      end tally
-c      ---
-c
-c      ---
-c      materials
-c      ---
-c
-c      ---
-c      borated-alumuinum - 10 wt% 2.67988 g/cc
-c      ---
-c  M1     5011.70c   -0.078261
-c         6012.42c   -0.021739
-c         13027.70c  -0.900000
-c      ---
-c      borated-alumuinum - 30 wt% 2.64262 g/cc
-c      ---
+c      --- 
+c 
+c      --- 
+c      materials 
+c      --- 
+c 
+c      --- 
+c      borated-alumuinum - 10 wt% 2.67988 g/cc 
+c      --- c 
+M1     5011.70c   -0.078261
+       6012.42c   -0.021739          
+       13027.70c  -0.900000 
+c      --- 
+c      borated-alumuinum - 30 wt% 2.64262 g/cc 
+c      --- 
 c  M1     5011.70c   -0.234783
 c         6012.42c   -0.065217
-c       13027.70c  -0.700000
+c         13027.70c  -0.700000
 c      ---
 c      borated-alumuinum - 50 wt%  2.60638 g/cc
 c      ---
@@ -1063,14 +1063,14 @@ c         13027.70c  -0.300000
 c      ---
 c      borated-alumuinum - 90 wt%  2.53682 g/cc
 c      ---
-M1     5011.70c   -0.704349
-       6012.42c   -0.195651
-       13027.70c  -0.100000
+c M1     5011.70c   -0.704349
+c        6012.42c   -0.195651
+c        13027.70c  -0.100000
 c      ---
 c
 c      ---
 c      used fuel - 10.97 g/cc theoretical density of uranium oxide
-c      spontaneous fission neutron emission rate - BASED ON FUEL TYPE, BURNUP, COOLING TIME
+c      spontaneous fission neutron emission rate - 8.8398E+08 n/s
 c      ---
 M2      2004.70c      -5.983300e-06
         92234.70c     -1.782900e-04
