@@ -100,7 +100,9 @@ c      ---
 c      ---
 102    6 -6.506      82 -83 -92 #101   u=1                 imp:n,p=1      $fuel cladding
 c      ---
-103    5 -0.001205              #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with whatever material
+c 103    5 -0.001205              #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with air
+c 103    3 -1.00                  #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with water
+c 103    7 -0.0001785             #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with helium
 c      ---
 104    0  82 -83 -93  94 -95  96       u=2 lat=1 fill=1    imp:n,p=1      $lattice unit cell
 c      ---
@@ -110,9 +112,11 @@ c      end
 c      ---
 c
 c      ---
-c      gas backfill 
+c      backfill 
 c      ---
-110    5 -0.001205  -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill surrounds used fuel 
+c 110    5 -0.001205  -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - air
+c 110    3 -1.00      -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - water
+c 110    7 -0.0001785 -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - helium
 c      ---
 c      end
 c      ---
@@ -1039,15 +1043,15 @@ c
 c      ---
 c      borated-alumuinum - 10 wt% 2.67988 g/cc
 c      ---
-c  M1     5011.70c   -0.078261
-c         6012.42c   -0.021739
-c         13027.70c  -0.900000
+c M1     5011.70c   -0.078261
+c        6012.42c   -0.021739
+c        13027.70c  -0.900000
 c      ---
 c      borated-alumuinum - 30 wt% 2.64262 g/cc
 c      ---
-c  M1     5011.70c   -0.234783
-c         6012.42c   -0.065217    
-c         13027.70c  -0.700000 
+c M1     5011.70c   -0.234783
+c        6012.42c   -0.065217    
+c        13027.70c  -0.700000 
 c      ---
 c      borated-alumuinum - 50 wt%  2.60638 g/cc
 c      ---
@@ -1057,15 +1061,15 @@ c        13027.70c  -0.500000
 c      ---
 c      borated-alumuinum - 70 wt%  2.57113 g/cc
 c      ---
-c  M1     5011.70c   -0.547827                                                                                
-c         6012.42c   -0.152173                                                                                
-c         13027.70c  -0.300000
+c M1     5011.70c   -0.547827                                                                                
+c        6012.42c   -0.152173                                                                                
+c        13027.70c  -0.300000
 c      ---
 c      borated-alumuinum - 90 wt%  2.53682 g/cc
 c      ---
-M1     5011.70c   -0.704349                                                                                
-       6012.42c   -0.195651                                                                                
-       13027.70c  -0.100000 
+c M1     5011.70c   -0.704349                                                                                
+c        6012.42c   -0.195651                                                                                
+c        13027.70c  -0.100000 
 c      ---
 c
 c      ---
@@ -1299,7 +1303,6 @@ M2     2004.66c      -2.192800e-06
        64156.66c     -6.504200e-05
        64158.66c     -1.601600e-05
        65159.66c     -2.183800e-06
-c       
 c      ---                             
 c
 c      ---
