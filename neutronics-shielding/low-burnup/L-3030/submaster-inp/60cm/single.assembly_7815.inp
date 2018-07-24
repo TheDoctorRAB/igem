@@ -1252,7 +1252,7 @@ c
 c      ---
 c      particle history
 c      ---
-NPS    5000000
+NPS    2000000
 c      ---
 c      end history
 c      ---
