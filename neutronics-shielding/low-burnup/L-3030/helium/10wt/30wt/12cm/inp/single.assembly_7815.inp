@@ -102,7 +102,7 @@ c      ---
 c      ---
 c 103    5 -0.001205              #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with air
 c 103    3 -1.00                  #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with water
-c 103    7 -0.0001785             #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with helium
+103    7 -0.0001785             #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with helium
 c      ---
 104    0  82 -83 -93  94 -95  96       u=2 lat=1 fill=1    imp:n,p=1      $lattice unit cell
 c      ---
@@ -116,7 +116,7 @@ c      backfill
 c      ---
 c 110    5 -0.001205  -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - air
 c 110    3 -1.00      -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - water
-c 110    7 -0.0001785 -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - helium
+110    7 -0.0001785 -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - helium
 c      ---
 c      end
 c      ---
@@ -133,10 +133,10 @@ c 201    1 -2.67988   11 -14 16 -19 23 -25  imp:n,p=1      $2 - bottom right - 1
 c 202    1 -2.67988   10 -13 17 -20 23 -25  imp:n,p=1      $3 - top left     - 10wt% B4C 
 c 203    1 -2.67988   11 -14 17 -20 23 -25  imp:n,p=1      $4 - top right    - 10wt% B4C
 c
-c 200    1 -2.64262   10 -13 16 -19 23 -25  imp:n,p=1      $1 - bottom left  - 30wt% B4C
-c 201    1 -2.62262   11 -14 16 -19 23 -25  imp:n,p=1      $2 - bottom right - 30wt% B4C
-c 202    1 -2.64262   10 -13 17 -20 23 -25  imp:n,p=1      $3 - top left     - 30wt% B4C
-c 203    1 -2.64262   11 -14 17 -20 23 -25  imp:n,p=1      $4 - top right    - 30wt% B4C
+200    1 -2.64262   10 -13 16 -19 23 -25  imp:n,p=1      $1 - bottom left  - 30wt% B4C
+201    1 -2.62262   11 -14 16 -19 23 -25  imp:n,p=1      $2 - bottom right - 30wt% B4C
+202    1 -2.64262   10 -13 17 -20 23 -25  imp:n,p=1      $3 - top left     - 30wt% B4C
+203    1 -2.64262   11 -14 17 -20 23 -25  imp:n,p=1      $4 - top right    - 30wt% B4C
 c
 c 200    1 -2.60638   10 -13 16 -19 23 -25  imp:n,p=1      $1 - bottom left  - 50wt% B4C
 c 201    1 -2.60638   11 -14 16 -19 23 -25  imp:n,p=1      $2 - bottom right - 50wt% B4C
@@ -251,22 +251,22 @@ c 351    1 -2.67988   11 -14 -17 19 23 -25
                 #327 #330 #331 #336 #337 
                 #338 #339              imp:n,p=1      $155 - east plate -  10wt% B4C
 c
-c 348    1 -2.64262  -11 13 16 -19 23 -25 
+348    1 -2.64262  -11 13 16 -19 23 -25 
                 #300 #301 #304 #305 #308
                 #309 #312 #313 #340 #341 
                 #342 #343              imp:n,p=1      $148 - south plate - 30wt% B4C
 c      ---
-c 349    1 -2.64262  -11 13 17 -20 23 -25
+349    1 -2.64262  -11 13 17 -20 23 -25
                 #302 #303 #306 #307 #310
                 #311 #314 #315 #344 #345 
                 #346 #347              imp:n,p=1      $149 - north plate - 30wt% B4C
 c      ---
-c 350    1 -2.64262   10 -13 -17 19 23 -25
+350    1 -2.64262   10 -13 -17 19 23 -25
                 #316 #317 #320 #321 #324
                 #325 #328 #329 #332 #333 
                 #334 #335              imp:n,p=1      $154 - west plate -  30wt% B4C
 c      ---
-c 351    1 -2.64262   11 -14 -17 19 23 -25
+351    1 -2.64262   11 -14 -17 19 23 -25
                 #318 #319 #322 #323 #326
                 #327 #330 #331 #336 #337 
                 #338 #339              imp:n,p=1      $155 - east plate -  30wt% B4C
@@ -338,7 +338,7 @@ c      ---
 c      cap
 c      ---
 c 352    1 -2.67988   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness - 10wt% B4C
-c 352    1 -2.64262   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness - 30wt% B4C
+352    1 -2.64262   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness - 30wt% B4C
 c 352    1 -2.60638   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness - 50wt% B4C
 c 352    1 -2.57113   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness - 70wt% B4C
 c 352    1 -2.53682   10 -14 16 -20 25 -26  imp:n,p=1      $156 - cap - change for thickness - 90wt% B4C
@@ -348,7 +348,7 @@ c      ---
 c      plug
 c      ---
 c 353    1 -2.67988   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness - 10wt% - B4C
-c 353    1 -2.64262   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness - 30wt% - B4C
+353    1 -2.64262   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness - 30wt% - B4C
 c 353    1 -2.60638   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness - 50wt% - B4C
 c 353    1 -2.57113   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness - 70wt% - B4C
 c 353    1 -2.53682   10 -14 16 -20 22 -23  imp:n,p=1      $157 - plug - change for thickness - 90wt% - B4C
@@ -1240,10 +1240,10 @@ c        13027.70c   -0.900000
 c      ---
 c      borated-alumuinum - 30 wt% 2.64262 g/cc
 c      ---
-c M1     5010.70c    -0.023478
-c        5011.70c    -0.211305
-c        6012.42c    -0.065217
-c        13027.70c   -0.700000
+M1     5010.70c    -0.023478
+       5011.70c    -0.211305
+       6012.42c    -0.065217
+       13027.70c   -0.700000
 c      ---
 c      borated-alumuinum - 50 wt%  2.60638 g/cc
 c      ---
