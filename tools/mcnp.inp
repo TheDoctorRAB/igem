@@ -10,5 +10,5 @@ cd ../../18cm/inp
 sub_mcnpx_2.7.0 -i single.assembly_7815.inp -w 00:20:00 -n16 -P iuc
 cd ../../30cm/inp/
 sub_mcnpx_2.7.0 -i single.assembly_7815.inp -w 00:20:00 -n16 -P iuc
-cd ../../
+cd ../../../
 
