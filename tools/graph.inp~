@@ -1,7 +1,0 @@
-python ~/github/plot/src/igem/plot_all.in.one_cask.thickness_dose.rate_l3030_west.py single.assembly_7815_west.plate_dose.rate.out
-python ~/github/plot/src/igem/plot_all.in.one_cask.thickness_dose.rate_l3030_east.py single.assembly_7815_east.plate_dose.rate.out
-python ~/github/plot/src/igem/plot_all.in.one_cask.thickness_dose.rate_l3030_south.py single.assembly_7815_south.plate_dose.rate.out
-python ~/github/plot/src/igem/plot_all.in.one_cask.thickness_dose.rate_l3030_north.py single.assembly_7815_north.plate_dose.rate.out
-python ~/github/plot/src/igem/plot_all.in.one_cask.thickness_dose.rate_l3030_cap.py single.assembly_7815_cap_dose.rate.out
-python ~/github/plot/src/igem/plot_all.in.one_cask.thickness_dose.rate_l3030_plug.py single.assembly_7815_plug_dose.rate.out
-
