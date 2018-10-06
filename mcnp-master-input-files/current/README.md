@@ -1,8 +1,13 @@
 These are the master MCNP input files for the cask design.
 
-Add new folder for plate thickness. 
+Parent directory is plate thickness.  
+Add more parent directories for new plate thickness. 
 
-If there is a new wt% of B10 or B4C add them here and just comment out. 
+Subdirectories are concrete container thickness. 
+
+In the plate thickness fol
+
+If there is a new wt% of B10 or B4C add them to the files here and just comment out. 
 
 If there is new material to add except for used fuel then add here and comment out. 
 
