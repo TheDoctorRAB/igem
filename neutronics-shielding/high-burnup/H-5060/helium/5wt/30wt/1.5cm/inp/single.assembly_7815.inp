@@ -76,6 +76,8 @@ c      2 - used fuel
 c      3 - cooling fluid
 c      4 - piping
 c      5 - atmosphere
+c      6 - cladding
+c      7 - cladding gap
 c      -----------
 c      end
 c      -----------
