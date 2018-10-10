@@ -78,6 +78,7 @@ c      4 - piping
 c      5 - atmosphere
 c      6 - cladding
 c      7 - cladding gap
+c      8 - boron frits-baryte concrete
 c      -----------
 c      end
 c      -----------
@@ -489,7 +490,6 @@ c
 c      --- 
 c      window for lattice is the fuel block given in 78 - 81
 c      ---
-c
 c      end
 c      ---
 c
@@ -1542,6 +1542,26 @@ c      ---
 c      cladding gap
 c      ---
 M7     2004.70c    -1.0                $He
+c      ---
+c
+c      ---
+c      boron frits-baryte concrete
+c      ---
+M8     1001.66c  -0.005600
+       5011.66c  -0.010400
+       8016.66c  -0.338000
+       9019.66c  -0.002300
+       11023.66c -0.012100
+       12000.66c -0.002300
+       13027.66c -0.006400
+       14000.60c -0.033100
+       16000.66c -0.091500
+       19000.66c -0.001000
+       20000.66c -0.062600
+       25055.66c -0.000200
+       26000.50c -0.021900
+       30000.42c -0.006600
+       56138.66c -0.401300
 c      ---
 c
 c      ---
