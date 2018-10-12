@@ -78,6 +78,8 @@ c      4 - piping
 c      5 - atmosphere
 c      6 - cladding
 c      7 - cladding gap
+c      8 - boron frits-baryte concrete
+c      8 - boron frits-baryte concrete
 c      -----------
 c      end
 c      -----------
