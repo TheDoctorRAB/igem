@@ -360,10 +360,6 @@ c      end
 c      ---
 c
 c      ---
-c      end cask
-c      ---
-c
-c      ---
 c      container
 c      ---
 400    8 -3.10 (-10:14:-16:20) -100  22 -26   imp:n,p=1 VOL=2.23713e+06   $container - change volume with plate thickness
@@ -380,7 +376,7 @@ c
 c      ---
 c      outside universe
 c      ---
-999    0  100:101:-102 imp:n,p=0
+999    0  100:101:-102  imp:n,p=0
 c      ---
 c
 c      -----------
@@ -506,13 +502,13 @@ c      window for lattice is the fuel block given in 78 - 81
 c      ---
 c      end
 c      ---
-
+c
 c      ---
 c      container
 c      ---
 100    c/z 17.159 17.159 84.572                       $container - radius + container thickness and changes with plate thickness
 101    pz  460.0                                      $cap - surface 26 + container thickness
-102    pz -50.0                                        $plug - surface 22 - container thickness
+102    pz -50.0                                       $plug - surface 22 - container thickness
 c      ---
 c
 c      end
@@ -1144,29 +1140,41 @@ c
 c      ---
 c      surface flux
 c      ---
-FC2    west plate
-F2:N   10
-C2     0 1 T
-c
-FC12   east plate
-F12:N  14 
-C12    0 1 T
-c
-FC22   south plate
-F22:N  16
-C22    0 1 T
-c
-FC32   north plate
-F32:N  20
-C32    0 1 T
+c      FC2    west plate
+c      F2:N   10
+c      C2     0 1 T
 c      ---
-FC42   cap
-F42:N  26
-C42    0 1 T
+c      FC12   east plate
+c      F12:N  14 
+c      C12    0 1 T
 c      ---
-FC52   plug
-F52:N  22
-C52    0 1 T
+c      FC22   south plate
+c      F22:N  16
+c      C22    0 1 T
+c      ---
+c      FC32   north plate
+c      F32:N  20
+c      C32    0 1 T
+c      ---
+c      FC42   cap
+c      F42:N  26
+c      C42    0 1 T
+c      ---
+c      FC52   plug
+c      F52:N  22
+c      C52    0 1 T
+c      ---
+FC62   container surface
+F62:N  100
+C62    0 1 T
+c      ---
+FC72   container top
+F72:N  101
+C72    0 1 T
+c      ---
+FC82   container bottom
+F82:N  102
+C82    0 1 T
 c      ---
 c
 c      ---
@@ -1570,6 +1578,26 @@ M7     2004.70c    -1.0                $He
 c      ---
 c
 c      ---
+c      boron frits-baryte concrete
+c      ---
+M8     1001.66c  -0.005600
+       5011.66c  -0.010400
+       8016.66c  -0.338000
+       9019.66c  -0.002300
+       11023.66c -0.012100
+       12000.66c -0.002300
+       13027.66c -0.006400
+       14000.60c -0.033100
+       16000.66c -0.091500
+       19000.66c -0.001000
+       20000.66c -0.062600
+       25055.66c -0.000200
+       26000.50c -0.021900
+       30000.42c -0.006600
+       56138.66c -0.401300
+c      ---
+c
+c      ---
 c      end materials
 c      ---
 c
@@ -1591,7 +1619,7 @@ c
 c      ---
 c      particle history
 c      ---
-NPS    2000000
+NPS    3000000
 c      ---
 c      end history
 c      ---
