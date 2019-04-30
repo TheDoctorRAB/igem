@@ -5,7 +5,7 @@ Add more parent directories for new plate thickness.
 
 Subdirectories are concrete container thickness. 
 
-In the plate thickness fol
+In the plate thickness folder
 
 If there is a new wt% of B10 or B4C add them to the files here and just comment out. 
 
