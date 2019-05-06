@@ -106,7 +106,7 @@ c      ---
 c 103    3 -1.00                  #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with water
 c 103    7 -0.0001785             #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with helium
 c      ---
-104    5 -0.001205  -93 94 -95 96       u=2 imp:n,p=1                            $air cell with no fuel
+c 104    5 -0.001205  -93 94 -95 96       u=2 imp:n,p=1                            $air cell with no fuel
 c 104    3 -1.00      -93 94 -95 96       u=2 imp:n,p=1                            $water cell with no fuel
 c 104    7 -0.0001785 -93 94 -95 96       u=2 imp:n,p=1                            $helium cell with no fuel
 c      ---
