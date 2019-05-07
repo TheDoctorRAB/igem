@@ -1,4 +1,10 @@
-Top level directory is for bare cask and container
+**Top level directory is assembly geometry**
+
+Full assembly - 289 fuel rods
+
+Guide assembly - 264 fuel rods  
+
+Second level directory is for bare cask and container
 ---
 
 **Bare cask directory**
@@ -24,6 +30,7 @@ Directory NNcm plate thickness
 Example - air/5cm/5wt/10wt/3cm/inp/mcnpfile  
 
 Read - mcnpfile for 3 cm plate thickness 10wt% boron carbide-90wt% aluminum in the plate with 5wt% boron 10 of the total boron with a 5cm thick container
+
 
 ---
 

@@ -131,7 +131,7 @@ c      ---
        1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
        imp:n,p=1
 c      ---
-199    0  78 -79  80 -81  82 -83                 fill=2    imp:n,p=1      $lattice window         
+199    0  78 -79  80 -81  82 -83                 fill=3    imp:n,p=1      $lattice window         
 c      ---
 c      end
 c      ---
