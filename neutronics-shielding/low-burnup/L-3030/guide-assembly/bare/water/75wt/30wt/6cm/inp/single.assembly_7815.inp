@@ -106,9 +106,34 @@ c 103    5 -0.001205              #102   u=1                 imp:n,p=1      $mod
 103    3 -1.00                  #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with water
 c 103    7 -0.0001785             #102   u=1                 imp:n,p=1      $moderator/cell boundary - filled with helium
 c      ---
-104    0  82 -83 -93  94 -95  96       u=2 lat=1 fill=1    imp:n,p=1      $lattice unit cell
+c 104    5 -0.001205  -93 94 -95 96       u=2 imp:n,p=1                            $air cell with no fuel
+104    3 -1.00      -93 94 -95 96       u=2 imp:n,p=1                            $water cell with no fuel
+c 104    7 -0.0001785 -93 94 -95 96       u=2 imp:n,p=1                            $helium cell with no fuel
 c      ---
-199    0  78 -79  80 -81  82 -83                 fill=2    imp:n,p=1      $lattice window         
+c      0,0,0 is NW on VISED but for cartesian x,y,z it is SW
+c      important for SDEF source particle designation
+c      ---
+105    0 -93  94 -95  96                u=3 lat=1 fill=0:16 0:16 0:0
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 2 1 1 2 1 1 2 1 1 1 1 1
+       1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 2 1 1 2 1 1 2 1 1 2 1 1 2 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 2 1 1 1 1 1 1 1 1 1 2 1 1 1
+       1 1 1 1 1 2 1 1 2 1 1 2 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+       imp:n,p=1
+c      ---
+199    0  78 -79  80 -81  82 -83                 fill=3    imp:n,p=1      $lattice window         
 c      ---
 c      end
 c      ---
