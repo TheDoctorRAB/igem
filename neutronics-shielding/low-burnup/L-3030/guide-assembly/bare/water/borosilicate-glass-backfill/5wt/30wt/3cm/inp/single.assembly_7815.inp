@@ -78,6 +78,7 @@ c      4 - piping
 c      5 - atmosphere
 c      6 - cladding
 c      7 - cladding gap
+c      9 - borosilicate glass
 c      -----------
 c      end
 c      -----------
@@ -142,8 +143,9 @@ c      ---
 c      backfill 
 c      ---
 c 110    5 -0.001205  -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - air
-110    3 -1.00      -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - water
+c 110    3 -1.00      -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - water
 c 110    7 -0.0001785 -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - helium
+110    9 -2.230     -11 13 -17 19 23 -25 #199            imp:n,p=1      $backfill - borosilicate glass
 c      ---
 c      end
 c      ---
@@ -1667,6 +1669,17 @@ c      ---
 c      cladding gap
 c      ---
 M7     2004.70c    -1.0                $He
+c      ---
+c
+c      ---
+c      borosilicate glass - 2.230 g/cc
+c      ---
+M9     5011.70c      -0.040066
+       8016.70c      -0.539559
+       11023.70c     -0.028191
+       13027.70c     -0.011644
+       14000.70c     -0.377220
+       19000.70c     -0.003321
 c      ---
 c
 c      ---
