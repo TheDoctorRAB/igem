@@ -1,0 +1,24 @@
+r5i6n0.ib0.ice.inl.gov
+r5i3n8.ib0.ice.inl.gov
+r5i3n4.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i1n13.ib0.ice.inl.gov
+r5i5n17.ib0.ice.inl.gov
+r5i5n17.ib0.ice.inl.gov
+r5i5n17.ib0.ice.inl.gov
+r5i5n17.ib0.ice.inl.gov
+r5i5n17.ib0.ice.inl.gov
+DATAPATH=/hpc-common/data/mcnp5/udata/mcnp_data
+The following PBS extra args (PBS_EXTRA_ARGS) will be used: 
+The following MCNP extra args (MCNP_EXTRA_ARGS) will be used: 
+[mpiexec@r5i6n0] HYD_pmcd_pmiserv_send_signal (./pm/pmiserv/pmiserv_cb.c:221): assert (!closed) failed
+[mpiexec@r5i6n0] ui_cmd_cb (./pm/pmiserv/pmiserv_pmci.c:128): unable to send SIGUSR1 downstream
+[mpiexec@r5i6n0] HYDT_dmxu_poll_wait_for_event (./tools/demux/demux_poll.c:77): callback returned error status
+[mpiexec@r5i6n0] HYD_pmci_wait_for_completion (./pm/pmiserv/pmiserv_pmci.c:388): error waiting for event
+[mpiexec@r5i6n0] main (./ui/mpich/mpiexec.c:718): process manager error waiting for completion
