@@ -1,0 +1,217 @@
+r7i5n0.ib0.ice.inl.gov
+r7i5n0.ib0.ice.inl.gov
+r7i5n0.ib0.ice.inl.gov
+r7i5n0.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+r7i5n1.ib0.ice.inl.gov
+DATAPATH=/hpc-common/data/mcnp5/udata/mcnp_data
+The following PBS extra args (PBS_EXTRA_ARGS) will be used: 
+The following MCNP extra args (MCNP_EXTRA_ARGS) will be used: 
+ mcnpx    ver=2.7.0 ld=Mon Apr 18 08:00:00 MST 2011   05/29/19 14:13:39
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m5     6000.70c    -0.000124           $C                            
+ warning.  material   5 is not used in the problem.
+ 
+ warning.  total nu is now the default for fixed-source problems.
+ warning.     2 surfaces were deleted for being the same as others.
+ warning.  surface     78   appears more than once in a chain.
+ warning.  surface     80   appears more than once in a chain.
+ warning.  surface     82   appears more than once in a chain.
+ warning.  surface     83   appears more than once in a chain.
+ warning.  surface     93   appears more than once in a chain.
+ warning.  surface     95   appears more than once in a chain.
+ warning.    1001.66c and   1001.70c are both called for.
+ warning.    5011.66c and   5011.70c are both called for.
+ warning.    8016.66c and   8016.70c are both called for.
+ warning.   13027.66c and  13027.70c are both called for.
+ warning.   14000.42c and  14000.60c are both called for.
+ warning.   25055.66c and  25055.70c are both called for.
+ warning.   26000.42c and  26000.50c are both called for.
+ warning.   56138.66c and  56138.70c are both called for.
+ warning.    2 materials had unnormalized fractions. print table 40.
+ warning.     1 cells appear to consist of more than one piece.
+ imcn   is done
+ warning.        1 coincident energy grid points in  42096.70c
+ warning.        1 coincident energy grid points in  42097.70c
+ warning.   96244.70c lacks delayed neutron cross sections.
+ warning.   96246.70c lacks delayed neutron cross sections.
+ warning.  neutron energy cutoff is below some cross-section tables.
+ warning.     7 cross sections modified by free gas thermal treatment.
+ dump    1 on file single.assembly_7815.inp.r   nps =           0  coll =              0
+                              ctm =      0.00     nrn =              0
+
+ xact   is done
+ dynamic storage =         0 words,          0 bytes.      cp0 =  0.42
+master starting      15 by       1 subtasks   05/29/19 14:14:05
+master sending static commons...
+master sharing runtpe file...
+master completed initialization broadcasts.
+rendezvous at nps =      100000 # of microtasks =      15    05/29/19 14:14:10
+rendezvous at nps =      200000 # of microtasks =      15    05/29/19 14:14:16
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      300000 # of microtasks =      15    05/29/19 14:14:22
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      400000 # of microtasks =      15    05/29/19 14:14:27
+rendezvous at nps =      500000 # of microtasks =      15    05/29/19 14:14:33
+rendezvous at nps =      600000 # of microtasks =      15    05/29/19 14:14:39
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      700000 # of microtasks =      15    05/29/19 14:14:45
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      800000 # of microtasks =      15    05/29/19 14:14:51
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      900000 # of microtasks =      15    05/29/19 14:14:57
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1000000 # of microtasks =      15    05/29/19 14:15:03
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1100000 # of microtasks =      15    05/29/19 14:15:08
+rendezvous at nps =     1200000 # of microtasks =      15    05/29/19 14:15:14
+r7i5n0:SCM:486e:b3e4c700: 97314893 us(97314893 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:4872:d4ca2700: 97313840 us(97313840 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:486c:487a6700: 97311754 us(97311754 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:4870:42cd9700: 97311790 us(97311790 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+rendezvous at nps =     1300000 # of microtasks =      15    05/29/19 14:15:20
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1400000 # of microtasks =      15    05/29/19 14:15:26
+r7i5n1:SCM:5f60:24e56700: 97325610 us(97325610 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f61:4f01b700: 97329986 us(97329986 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f63:322e3700: 97331747 us(97331747 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f64:c7260700: 97328235 us(97328235 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f66:683b7700: 97331749 us(97331749 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f67:1ea05700: 97326091 us(97326091 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f69:ceb38700: 97331265 us(97331265 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f6a:a3d77700: 97328746 us(97328746 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f5f:7fc2c700: 97325826 us(97325826 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f62:1828e700: 97312851 us(97312851 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f65:55716700: 97319397 us(97319397 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f68:61ccd700: 97331089 us(97331089 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1500000 # of microtasks =      15    05/29/19 14:15:32
+r7i5n1:SCM:5f60:24e56700: 116124829 us(18799219 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f61:4f01b700: 116129208 us(18799222 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f63:322e3700: 116130971 us(18799224 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f64:c7260700: 116127456 us(18799221 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f66:683b7700: 116130972 us(18799223 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f67:1ea05700: 116125312 us(18799221 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f69:ceb38700: 116130490 us(18799225 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f6a:a3d77700: 116127966 us(18799220 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f5f:7fc2c700: 116125025 us(18799199 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f62:1828e700: 116112053 us(18799202 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f65:55716700: 116118604 us(18799207 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n1:SCM:5f68:61ccd700: 116130298 us(18799209 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:486e:b3e4c700: 116116120 us(18801227 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:4872:d4ca2700: 116115068 us(18801228 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:486c:487a6700: 116112960 us(18801206 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+r7i5n0:SCM:4870:42cd9700: 116113004 us(18801214 us!!!):  WARNING: IBV_CLIENT_REREGISTER
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1600000 # of microtasks =      15    05/29/19 14:15:38
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1700000 # of microtasks =      15    05/29/19 14:15:43
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1800000 # of microtasks =      15    05/29/19 14:15:49
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1900000 # of microtasks =      15    05/29/19 14:15:55
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2000000 # of microtasks =      15    05/29/19 14:16:01
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2100000 # of microtasks =      15    05/29/19 14:16:07
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2200000 # of microtasks =      15    05/29/19 14:16:13
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2300000 # of microtasks =      15    05/29/19 14:16:18
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2400000 # of microtasks =      15    05/29/19 14:16:24
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2500000 # of microtasks =      15    05/29/19 14:16:30
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2600000 # of microtasks =      15    05/29/19 14:16:36
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2700000 # of microtasks =      15    05/29/19 14:16:42
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2800000 # of microtasks =      15    05/29/19 14:16:48
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2900000 # of microtasks =      15    05/29/19 14:16:53
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     3000000 # of microtasks =      15    05/29/19 14:16:59
+ run terminated when      3000000 particle histories were done.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+ dump    2 on file single.assembly_7815.inp.r   nps =     3000000  coll =      142227117
+                              ctm =     40.62     nrn =     2181196192
+
+ mcrun  is done

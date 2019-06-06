@@ -1,0 +1,661 @@
+r1i3n15.ib0.ice.inl.gov
+r1i7n17.ib0.ice.inl.gov
+r3i6n9.ib0.ice.inl.gov
+r5i5n17.ib0.ice.inl.gov
+r6i1n3.ib0.ice.inl.gov
+r2i4n8.ib0.ice.inl.gov
+r1i3n6.ib0.ice.inl.gov
+r1i3n6.ib0.ice.inl.gov
+r7i5n3.ib0.ice.inl.gov
+r7i5n3.ib0.ice.inl.gov
+r4i6n12.ib0.ice.inl.gov
+r4i4n12.ib0.ice.inl.gov
+r4i4n12.ib0.ice.inl.gov
+r4i4n12.ib0.ice.inl.gov
+r4i4n12.ib0.ice.inl.gov
+r4i4n12.ib0.ice.inl.gov
+DATAPATH=/hpc-common/data/mcnp5/udata/mcnp_data
+The following PBS extra args (PBS_EXTRA_ARGS) will be used: 
+The following MCNP extra args (MCNP_EXTRA_ARGS) will be used: 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r1i7n17.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.4.121
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:1412
+You can use following command to remove the offending key:
+ssh-keygen -R r1i7n17.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r5i5n17.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.6.131
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:1641
+You can use following command to remove the offending key:
+ssh-keygen -R r5i5n17.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r4i6n12.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.6.0
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:1479
+You can use following command to remove the offending key:
+ssh-keygen -R r4i6n12.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r7i5n3.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.7.149
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:837
+You can use following command to remove the offending key:
+ssh-keygen -R r7i5n3.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r6i1n3.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.6.171
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:1156
+You can use following command to remove the offending key:
+ssh-keygen -R r6i1n3.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r4i4n12.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.5.220
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:805
+You can use following command to remove the offending key:
+ssh-keygen -R r4i4n12.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+ mcnpx    ver=2.7.0 ld=Mon Apr 18 08:00:00 MST 2011   06/04/19 17:26:11
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m5     6000.70c    -0.000124           $C                            
+ warning.  material   5 is not used in the problem.
+ 
+ warning.  total nu is now the default for fixed-source problems.
+ warning.     2 surfaces were deleted for being the same as others.
+ warning.  surface     78   appears more than once in a chain.
+ warning.  surface     80   appears more than once in a chain.
+ warning.  surface     82   appears more than once in a chain.
+ warning.  surface     83   appears more than once in a chain.
+ warning.  surface     93   appears more than once in a chain.
+ warning.  surface     95   appears more than once in a chain.
+ warning.    1001.66c and   1001.70c are both called for.
+ warning.    5011.66c and   5011.70c are both called for.
+ warning.    8016.66c and   8016.70c are both called for.
+ warning.   11023.66c and  11023.70c are both called for.
+ warning.   13027.66c and  13027.70c are both called for.
+ warning.   14000.42c and  14000.60c are both called for.
+ warning.   14000.60c and  14000.70c are both called for.
+ warning.   19000.66c and  19000.70c are both called for.
+ warning.   25055.66c and  25055.70c are both called for.
+ warning.   26000.42c and  26000.50c are both called for.
+ warning.   56138.66c and  56138.70c are both called for.
+ warning.  use models for the following missing data tables:
+  14000.70c
+  19000.70c
+ warning.    2 materials had unnormalized fractions. print table 40.
+ warning.     1 cells appear to consist of more than one piece.
+ imcn   is done
+ warning.        1 coincident energy grid points in  42096.70c
+ warning.        1 coincident energy grid points in  42097.70c
+ warning.   96244.70c lacks delayed neutron cross sections.
+ warning.   96246.70c lacks delayed neutron cross sections.
+ warning.  neutron energy cutoff is below some cross-section tables.
+ warning.     7 cross sections modified by free gas thermal treatment.
+ dump    1 on file single.assembly_7815.inp.r   nps =           0  coll =              0
+                              ctm =      0.00     nrn =              0
+
+ xact   is done
+ dynamic storage =         0 words,          0 bytes.      cp0 =  0.42
+master starting      15 by       1 subtasks   06/04/19 17:26:43
+master sending static commons...
+master sharing runtpe file...
+master completed initialization broadcasts.
+rendezvous at nps =      100000 # of microtasks =      15    06/04/19 17:26:47
+ warning.   random number stride   152917 exceeded        1 times.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      200000 # of microtasks =      15    06/04/19 17:27:11
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      300000 # of microtasks =      15    06/04/19 17:27:36
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      400000 # of microtasks =      15    06/04/19 17:28:02
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      500000 # of microtasks =      15    06/04/19 17:28:26
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      600000 # of microtasks =      15    06/04/19 17:28:50
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      700000 # of microtasks =      15    06/04/19 17:29:16
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      800000 # of microtasks =      15    06/04/19 17:29:41
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      900000 # of microtasks =      15    06/04/19 17:30:06
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1000000 # of microtasks =      15    06/04/19 17:30:33
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1100000 # of microtasks =      15    06/04/19 17:30:58
+ warning.   random number stride   152917 exceeded        2 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1200000 # of microtasks =      15    06/04/19 17:31:25
+ warning.   random number stride   152917 exceeded        3 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1300000 # of microtasks =      15    06/04/19 17:31:51
+ warning.   random number stride   152917 exceeded        3 times.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1400000 # of microtasks =      15    06/04/19 17:32:18
+ warning.   random number stride   152917 exceeded        3 times.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1500000 # of microtasks =      15    06/04/19 17:32:43
+ warning.   random number stride   152917 exceeded        3 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1600000 # of microtasks =      15    06/04/19 17:33:10
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1700000 # of microtasks =      15    06/04/19 17:33:35
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1800000 # of microtasks =      15    06/04/19 17:34:02
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1900000 # of microtasks =      15    06/04/19 17:34:28
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2000000 # of microtasks =      15    06/04/19 17:34:53
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2100000 # of microtasks =      15    06/04/19 17:35:20
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2200000 # of microtasks =      15    06/04/19 17:35:45
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2300000 # of microtasks =      15    06/04/19 17:36:11
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2400000 # of microtasks =      15    06/04/19 17:36:38
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2500000 # of microtasks =      15    06/04/19 17:37:03
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2600000 # of microtasks =      15    06/04/19 17:37:29
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2700000 # of microtasks =      15    06/04/19 17:37:55
+ dump    2 on file single.assembly_7815.inp.r   nps =     2698569  coll =      335452506
+                              ctm =    150.77     nrn =    10999606285
+
+rendezvous at nps =     2700000 # of microtasks =      15    06/04/19 17:38:21
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2800000 # of microtasks =      15    06/04/19 17:38:22
+ warning.   random number stride   152917 exceeded        4 times.
+ warning.  tally  62 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2900000 # of microtasks =      15    06/04/19 17:38:47
+ warning.   random number stride   152917 exceeded        5 times.
+rendezvous at nps =     3000000 # of microtasks =      15    06/04/19 17:39:13
+ run terminated when      3000000 particle histories were done.
+ warning.   random number stride   152917 exceeded        5 times.
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+ dump    3 on file single.assembly_7815.inp.r   nps =     3000000  coll =      372931548
+                              ctm =    167.29     nrn =    12229412405
+
+ mcrun  is done
+=>> PBS: job killed: walltime 15374 exceeded limit 15300
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F82C5F38E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C51349C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C512F49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C512EC26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C4FB1172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C508E647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C4F5D75F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C50877D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F82C50279AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F82C4CA16A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F82C48F6765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F1CDB207E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA4039C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA3FE49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA3FDC26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA280172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA35D647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA22C75F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA3567D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F1CDA2F69AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F1CD9F706A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F1CD9BC5765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F9418635E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F94178319C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F941782C49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F941782BC26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F94176AE172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F941778B647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F941765A75F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F94177847D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F94177249AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F941739E6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F9416FF3765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007FBE38C32E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37E2E9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37E2949B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37E28C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37CAB172  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37D88647  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37C5775F  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37D817D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007FBE37D219AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007FBE3799B6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007FBE375F0765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007FF4EBA80E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EAC7C9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EAC7749B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EAC76C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EAAF9172  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EABD6647  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EAAA575F  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EABCF7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF4EAB6F9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007FF4EA7E96A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007FF4EA43E765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007FC3C4ED0E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C40CC9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C40C749B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C40C6C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C3F49172  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C4026647  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C3EF575F  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C401F7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007FC3C3FBF9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007FC3C3C396A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007FC3C388E765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007FDE5F1C0E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E3BC9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E3B749B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E3B6C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E239172  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E316647  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E1E575F  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E30F7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007FDE5E2AF9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007FDE5DF296A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007FDE5DB7E765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F86EEC7FE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDE7B9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDE7649B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDE75C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDCF8172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDDD5647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDCA475F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDDCE7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F86EDD6E9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F86ED9E86A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F86ED63D765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F75517B3E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F75509AF9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F75509AA49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F75509A9C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F755082C172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F7550909647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F75507D875F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F75509027D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F75508A29AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F755051C6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F7550171765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F3A6EC88E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DE849C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DE7F49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DE7EC26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DD01172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DDDE647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DCAD75F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DDD77D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F3A6DD779AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F3A6D9F16A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F3A6D646765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007FF57BC47E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AE439C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AE3E49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AE3DC26  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57ACC0172  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AD9D647  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AC6C75F  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AD967D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007FF57AD369AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007FF57A9B06A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007FF57A605765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F5A92DB2E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91FAE9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91FA949B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91FA8C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91E2B172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91F08647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91DD775F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91F017D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F5A91EA19AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F5A91B1B6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F5A91770765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F2F46377E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F455739C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F4556E49B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F4556DC26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F453F0172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F454CD647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F4539C75F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F454C67D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F2F454669AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F2F450E06A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F2F44D35765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007FAE8436EE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE8356A9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE8356549B  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE83564C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE833E7172  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE834C4647  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE8339375F  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE834BD7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007FAE8345D9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007FAE830D76A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007FAE82D2C765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F44B927EE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B847A9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B847549B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B8474C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B82F7172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B83D4647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B82A375F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B83CD7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F44B836D9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F44B7FE76A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F44B7C3C765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
