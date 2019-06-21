@@ -1,0 +1,758 @@
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n6.ib0.ice.inl.gov
+r4i4n7.ib0.ice.inl.gov
+DATAPATH=/hpc-common/data/mcnp5/udata/mcnp_data
+The following PBS extra args (PBS_EXTRA_ARGS) will be used: 
+The following MCNP extra args (MCNP_EXTRA_ARGS) will be used: 
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The ECDSA host key for r4i4n7.ib0.ice.inl.gov has changed,
+and the key for the corresponding IP address 10.148.5.215
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:d5/iiBgGmspe4pilZ0FOfGvkZ2ZwKOfaD5RUqVS9s9k.
+Please contact your system administrator.
+Add correct host key in /home/borrrobe/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /home/borrrobe/.ssh/known_hosts:889
+You can use following command to remove the offending key:
+ssh-keygen -R r4i4n7.ib0.ice.inl.gov -f /home/borrrobe/.ssh/known_hosts
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+ mcnpx    ver=2.7.0 ld=Mon Apr 18 08:00:00 MST 2011   06/04/19 16:37:22
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m5     6000.70c    -0.000124           $C                            
+ warning.  material   5 is not used in the problem.
+ 
+ warning.  total nu is now the default for fixed-source problems.
+ warning.     2 surfaces were deleted for being the same as others.
+ warning.  surface     78   appears more than once in a chain.
+ warning.  surface     80   appears more than once in a chain.
+ warning.  surface     82   appears more than once in a chain.
+ warning.  surface     83   appears more than once in a chain.
+ warning.  surface     93   appears more than once in a chain.
+ warning.  surface     95   appears more than once in a chain.
+ warning.    1001.66c and   1001.70c are both called for.
+ warning.    5011.66c and   5011.70c are both called for.
+ warning.    8016.66c and   8016.70c are both called for.
+ warning.   11023.66c and  11023.70c are both called for.
+ warning.   13027.66c and  13027.70c are both called for.
+ warning.   14000.42c and  14000.60c are both called for.
+ warning.   14000.60c and  14000.70c are both called for.
+ warning.   19000.66c and  19000.70c are both called for.
+ warning.   25055.66c and  25055.70c are both called for.
+ warning.   26000.42c and  26000.50c are both called for.
+ warning.   56138.66c and  56138.70c are both called for.
+ warning.  use models for the following missing data tables:
+  14000.70c
+  19000.70c
+ warning.    2 materials had unnormalized fractions. print table 40.
+ warning.    1 of the materials appear at more than one density.
+ warning.     1 cells appear to consist of more than one piece.
+ imcn   is done
+ warning.        1 coincident energy grid points in  42096.70c
+ warning.        1 coincident energy grid points in  42097.70c
+ warning.   96244.70c lacks delayed neutron cross sections.
+ warning.   96246.70c lacks delayed neutron cross sections.
+ warning.  neutron energy cutoff is below some cross-section tables.
+ warning.     7 cross sections modified by free gas thermal treatment.
+ dump    1 on file single.assembly_7815.inp.r   nps =           0  coll =              0
+                              ctm =      0.00     nrn =              0
+
+ xact   is done
+ dynamic storage =         0 words,          0 bytes.      cp0 =  0.42
+master starting      15 by       1 subtasks   06/04/19 16:37:47
+master sending static commons...
+master sharing runtpe file...
+master completed initialization broadcasts.
+rendezvous at nps =      100000 # of microtasks =      15    06/04/19 16:37:48
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      200000 # of microtasks =      15    06/04/19 16:38:09
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      300000 # of microtasks =      15    06/04/19 16:38:30
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      400000 # of microtasks =      15    06/04/19 16:38:51
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      500000 # of microtasks =      15    06/04/19 16:39:12
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      600000 # of microtasks =      15    06/04/19 16:39:33
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      700000 # of microtasks =      15    06/04/19 16:39:54
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      800000 # of microtasks =      15    06/04/19 16:40:14
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      900000 # of microtasks =      15    06/04/19 16:40:35
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1000000 # of microtasks =      15    06/04/19 16:40:56
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1100000 # of microtasks =      15    06/04/19 16:41:17
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1200000 # of microtasks =      15    06/04/19 16:41:38
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1300000 # of microtasks =      15    06/04/19 16:41:58
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1400000 # of microtasks =      15    06/04/19 16:42:19
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1500000 # of microtasks =      15    06/04/19 16:42:39
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1600000 # of microtasks =      15    06/04/19 16:42:59
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1700000 # of microtasks =      15    06/04/19 16:43:20
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1800000 # of microtasks =      15    06/04/19 16:43:40
+ warning.  tally  72 tfc bin did not pass  3 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     1900000 # of microtasks =      15    06/04/19 16:44:01
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2000000 # of microtasks =      15    06/04/19 16:44:22
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2100000 # of microtasks =      15    06/04/19 16:44:43
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  4 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2200000 # of microtasks =      15    06/04/19 16:45:03
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     3 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2300000 # of microtasks =      15    06/04/19 16:45:24
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     3 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2400000 # of microtasks =      15    06/04/19 16:45:45
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2500000 # of microtasks =      15    06/04/19 16:46:06
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  5 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2600000 # of microtasks =      15    06/04/19 16:46:27
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  4 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2700000 # of microtasks =      15    06/04/19 16:46:48
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  4 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2800000 # of microtasks =      15    06/04/19 16:47:08
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     2900000 # of microtasks =      15    06/04/19 16:47:28
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =     3000000 # of microtasks =      15    06/04/19 16:47:49
+ run terminated when      3000000 particle histories were done.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+ dump    2 on file single.assembly_7815.inp.r   nps =     3000000  coll =      290484312
+                              ctm =    147.15     nrn =     9577479372
+
+ mcrun  is done
+*** Error in `mcnpx.mpi': corrupted double-linked list: 0x0000000005163720 ***
+======= Backtrace: =========
+/lib/../lib64/libc.so.6(+0x7415f)[0x2b0fb1f4915f]
+/lib/../lib64/libc.so.6(+0x795d6)[0x2b0fb1f4e5d6]
+/lib/../lib64/libc.so.6(+0x79972)[0x2b0fb1f4e972]
+/lib/../lib64/libc.so.6(+0x7a3c3)[0x2b0fb1f4f3c3]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(+0x19f0fd)[0x2b0fb181f0fd]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(rtc_destroy_cache+0x1f9)[0x2b0fb181cdb9]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(MPID_nem_dapl_destroy_RTC+0x25)[0x2b0fb176bae5]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(MPID_nem_dapl_rc_finalize_20+0x2a)[0x2b0fb178615a]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(MPID_nem_finalize+0x207)[0x2b0fb1863647]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(MPIDI_CH3_Finalize+0xf)[0x2b0fb173275f]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(MPID_Finalize+0xb2)[0x2b0fb185c7d2]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpi.so.4(PMPI_Finalize+0x34e)[0x2b0fb17fc9ae]
+/apps/local/easybuild/software/impi/4.1.0.027/lib64/libmpigf.so.4(MPI_FINALIZE+0x9)[0x2b0fb1ccb6a9]
+mcnpx.mpi[0x6245ed]
+mcnpx.mpi[0x4065fb]
+mcnpx.mpi[0x40504b]
+mcnpx.mpi[0x404ffc]
+/lib/../lib64/libc.so.6(__libc_start_main+0xf5)[0x2b0fb1ef5765]
+mcnpx.mpi[0x404ef9]
+======= Memory map: ========
+00400000-00968000 r-xp 00000000 00:2e 46724846134398869                  /apps/exp_ctl/easybuild/software/MCNPX/2.7.0-ictcet-2.5.0/bin/mcnpx
+00b67000-00b68000 r--p 00567000 00:2e 46724846134398869                  /apps/exp_ctl/easybuild/software/MCNPX/2.7.0-ictcet-2.5.0/bin/mcnpx
+00b68000-013d1000 rw-p 00568000 00:2e 46724846134398869                  /apps/exp_ctl/easybuild/software/MCNPX/2.7.0-ictcet-2.5.0/bin/mcnpx
+013d1000-03c4c000 rw-p 00000000 00:00 0 
+05155000-06f4d000 rw-p 00000000 00:00 0                                  [heap]
+2b0faf610000-2b0faf631000 r-xp 00000000 00:17 75454                      /lib64/ld-2.22.so
+2b0faf631000-2b0faf634000 r--p 00000000 00:00 0                          [vvar]
+2b0faf634000-2b0faf636000 r-xp 00000000 00:00 0                          [vdso]
+2b0faf636000-2b0faf638000 rw-p 00000000 00:00 0 
+2b0faf638000-2b0faf665000 r-xp 00000000 00:2e 35465847066042754          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libifport.so.5
+2b0faf665000-2b0faf764000 ---p 0002d000 00:2e 35465847066042754          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libifport.so.5
+2b0faf764000-2b0faf767000 rw-p 0002c000 00:2e 35465847066042754          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libifport.so.5
+2b0faf767000-2b0faf771000 rw-p 00000000 00:00 0 
+2b0faf771000-2b0faf772000 -w-s 00000000 00:06 234584                     /dev/infiniband/uverbs0
+2b0faf772000-2b0faf773000 -w-s 00001000 00:06 234584                     /dev/infiniband/uverbs0
+2b0faf773000-2b0faf774000 r--s 00003000 00:06 234584                     /dev/infiniband/uverbs0
+2b0faf774000-2b0faf777000 rw-p 00000000 00:00 0 
+2b0faf787000-2b0faf80a000 rw-p 00000000 00:00 0 
+2b0faf831000-2b0faf832000 r--p 00021000 00:17 75454                      /lib64/ld-2.22.so
+2b0faf832000-2b0faf833000 rw-p 00022000 00:17 75454                      /lib64/ld-2.22.so
+2b0faf833000-2b0faf834000 rw-p 00000000 00:00 0 
+2b0faf834000-2b0faf960000 r-xp 00000000 00:2e 51228445761837067          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libifcore.so.5
+2b0faf960000-2b0fafa60000 ---p 0012c000 00:2e 51228445761837067          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libifcore.so.5
+2b0fafa60000-2b0fafa71000 rw-p 0012c000 00:2e 51228445761837067          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libifcore.so.5
+2b0fafa71000-2b0fafa78000 rw-p 00000000 00:00 0 
+2b0fafa78000-2b0fafd00000 r-xp 00000000 00:2e 29273397578408521          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libimf.so
+2b0fafd00000-2b0fafe00000 ---p 00288000 00:2e 29273397578408521          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libimf.so
+2b0fafe00000-2b0fafe44000 rw-p 00288000 00:2e 29273397578408521          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libimf.so
+2b0fafe44000-2b0fb04bc000 r-xp 00000000 00:2e 6755399441555308           /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libsvml.so
+2b0fb04bc000-2b0fb05bc000 ---p 00678000 00:2e 6755399441555308           /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libsvml.so
+2b0fb05bc000-2b0fb05be000 rw-p 00678000 00:2e 6755399441555308           /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libsvml.so
+2b0fb05be000-2b0fb06b9000 r-xp 00000000 00:17 75594                      /lib64/libm-2.22.so
+2b0fb06b9000-2b0fb08b9000 ---p 000fb000 00:17 75594                      /lib64/libm-2.22.so
+2b0fb08b9000-2b0fb08ba000 r--p 000fb000 00:17 75594                      /lib64/libm-2.22.so
+2b0fb08ba000-2b0fb08bb000 rw-p 000fc000 00:17 75594                      /lib64/libm-2.22.so
+2b0fb08bb000-2b0fb0907000 r-xp 00000000 00:2e 55732045389207452          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libirc.so
+2b0fb0907000-2b0fb0a06000 ---p 0004c000 00:2e 55732045389207452          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libirc.so
+2b0fb0a06000-2b0fb0a09000 rw-p 0004b000 00:2e 55732045389207452          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libirc.so
+2b0fb0a09000-2b0fb0a0a000 rw-p 00000000 00:00 0 
+2b0fb0a0a000-2b0fb0a22000 r-xp 00000000 00:17 75597                      /lib64/libpthread-2.22.so
+2b0fb0a22000-2b0fb0c21000 ---p 00018000 00:17 75597                      /lib64/libpthread-2.22.so
+2b0fb0c21000-2b0fb0c22000 r--p 00017000 00:17 75597                      /lib64/libpthread-2.22.so
+2b0fb0c22000-2b0fb0c23000 rw-p 00018000 00:17 75597                      /lib64/libpthread-2.22.so
+2b0fb0c23000-2b0fb0c27000 rw-p 00000000 00:00 0 
+2b0fb0c27000-2b0fb0c3c000 r-xp 00000000 00:2e 29836347531784186          /apps/local/easybuild/software/GCC/4.5.4/lib64/libgcc_s.so.1
+2b0fb0c3c000-2b0fb0e3b000 ---p 00015000 00:2e 29836347531784186          /apps/local/easybuild/software/GCC/4.5.4/lib64/libgcc_s.so.1
+2b0fb0e3b000-2b0fb0e3c000 r--p 00014000 00:2e 29836347531784186          /apps/local/easybuild/software/GCC/4.5.4/lib64/libgcc_s.so.1
+2b0fb0e3c000-2b0fb0e3d000 rw-p 00015000 00:2e 29836347531784186          /apps/local/easybuild/software/GCC/4.5.4/lib64/libgcc_s.so.1
+2b0fb0e3d000-2b0fb0e3f000 r-xp 00000000 00:17 75463                      /lib64/libdl-2.22.so
+2b0fb0e3f000-2b0fb103f000 ---p 00002000 00:17 75463                      /lib64/libdl-2.22.so
+2b0fb103f000-2b0fb1040000 r--p 00002000 00:17 75463                      /lib64/libdl-2.22.so
+2b0fb1040000-2b0fb1041000 rw-p 00003000 00:17 75463                      /lib64/libdl-2.22.so
+2b0fb1041000-2b0fb1125000 r-xp 00000000 00:2e 69805794224697713          /apps/local/easybuild/software/GCC/4.5.4/lib64/libstdc++.so.6.0.14
+2b0fb1125000-2b0fb1324000 ---p 000e4000 00:2e 69805794224697713          /apps/local/easybuild/software/GCC/4.5.4/lib64/libstdc++.so.6.0.14
+2b0fb1324000-2b0fb132c000 r--p 000e3000 00:2e 69805794224697713          /apps/local/easybuild/software/GCC/4.5.4/lib64/libstdc++.so.6.0.14
+2b0fb132c000-2b0fb132e000 rw-p 000eb000 00:2e 69805794224697713          /apps/local/easybuild/software/GCC/4.5.4/lib64/libstdc++.so.6.0.14
+2b0fb132e000-2b0fb1343000 rw-p 00000000 00:00 0 
+2b0fb1343000-2b0fb147a000 r-xp 00000000 00:17 172892                     /usr/lib64/libX11.so.6.3.0
+2b0fb147a000-2b0fb167a000 ---p 00137000 00:17 172892                     /usr/lib64/libX11.so.6.3.0
+2b0fb167a000-2b0fb167b000 r--p 00137000 00:17 172892                     /usr/lib64/libX11.so.6.3.0
+2b0fb167b000-2b0fb1680000 rw-p 00138000 00:17 172892                     /usr/lib64/libX11.so.6.3.0
+2b0fb1680000-2b0fb1a3a000 r-xp 00000000 00:2e 66428094504216714          /apps/local/easybuild/software/impi/4.1.0.027/intel64/lib/libmpi.so.4.1
+2b0fb1a3a000-2b0fb1c39000 ---p 003ba000 00:2e 66428094504216714          /apps/local/easybuild/software/impi/4.1.0.027/intel64/lib/libmpi.so.4.1
+2b0fb1c39000-2b0fb1c59000 rw-p 003b9000 00:2e 66428094504216714          /apps/local/easybuild/software/impi/4.1.0.027/intel64/lib/libmpi.so.4.1
+2b0fb1c59000-2b0fb1ca5000 rw-p 00000000 00:00 0 
+2b0fb1ca5000-2b0fb1cd4000 r-xp 00000000 00:2e 30399297485251464          /apps/local/easybuild/software/impi/4.1.0.027/intel64/lib/libmpigf.so.4.1
+2b0fb1cd4000-2b0fb1ed4000 ---p 0002f000 00:2e 30399297485251464          /apps/local/easybuild/software/impi/4.1.0.027/intel64/lib/libmpigf.so.4.1
+2b0fb1ed4000-2b0fb1ed5000 rw-p 0002f000 00:2e 30399297485251464          /apps/local/easybuild/software/impi/4.1.0.027/intel64/lib/libmpigf.so.4.1
+2b0fb1ed5000-2b0fb2071000 r-xp 00000000 00:17 75433                      /lib64/libc-2.22.so
+2b0fb2071000-2b0fb2270000 ---p 0019c000 00:17 75433                      /lib64/libc-2.22.so
+2b0fb2270000-2b0fb2274000 r--p 0019b000 00:17 75433                      /lib64/libc-2.22.so
+2b0fb2274000-2b0fb2276000 rw-p 0019f000 00:17 75433                      /lib64/libc-2.22.so
+2b0fb2276000-2b0fb227a000 rw-p 00000000 00:00 0 
+2b0fb227a000-2b0fb22c6000 r-xp 00000000 00:2e 11258999068924431          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libintlc.so.5
+2b0fb22c6000-2b0fb23c5000 ---p 0004c000 00:2e 11258999068924431          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libintlc.so.5
+2b0fb23c5000-2b0fb23c8000 rw-p 0004b000 00:2e 11258999068924431          /apps/local/easybuild/software/ifort/2011.13.367/compiler/lib/intel64/libintlc.so.5
+2b0fb23c8000-2b0fb23c9000 rw-p 00000000 00:00 0 
+2b0fb23c9000-2b0fb23e8000 r-xp 00000000 00:17 179148                     /usr/lib64/libxcb.so.1.1.0
+2b0fb23e8000-2b0fb25e7000 ---p 0001f000 00:17 179148                     /usr/lib64/libxcb.so.1.1.0
+2b0fb25e7000-2b0fb25e8000 r--p 0001e000 00:17 179148                     /usr/lib64/libxcb.so.1.1.0
+2b0fb25e8000-2b0fb25e9000 rw-p 0001f000 00:17 179148                     /usr/lib64/libxcb.so.1.1.0
+2b0fb25e9000-2b0fb25f0000 r-xp 00000000 00:17 75427                      /lib64/librt-2.22.so
+2b0fb25f0000-2b0fb27ef000 ---p 00007000 00:17 75427                      /lib64/librt-2.22.so
+2b0fb27ef000-2b0fb27f0000 r--p 00006000 00:17 75427                      /lib64/librt-2.22.so
+2b0fb27f0000-2b0fb27f1000 rw-p 00007000 00:17 75427                      /lib64/librt-2.22.so
+2b0fb27f1000-2b0fb27f4000 r-xp 00000000 00:17 179269                     /usr/lib64/libXau.so.6.0.0
+2b0fb27f4000-2b0fb29f3000 ---p 00003000 00:17 179269                     /usr/lib64/libXau.so.6.0.0
+2b0fb29f3000-2b0fb29f4000 r--p 00002000 00:17 179269                     /usr/lib64/libXau.so.6.0.0
+2b0fb29f4000-2b0fb29f5000 rw-p 00003000 00:17 179269                     /usr/lib64/libXau.so.6.0.0
+2b0fb29f5000-2b0fbaf1a000 rw-s 00000000 00:15 5752552                    /dev/shm/Intel_MPI_qZJlMp (deleted)
+2b0fbaf1a000-2b0fbaf24000 r-xp 00000000 00:17 173074                     /usr/lib64/libdat2.so.2.0.0
+2b0fbaf24000-2b0fbb124000 ---p 0000a000 00:17 173074                     /usr/lib64/libdat2.so.2.0.0
+2b0fbb124000-2b0fbb125000 r--p 0000a000 00:17 173074                     /usr/lib64/libdat2.so.2.0.0
+2b0fbb125000-2b0fbb126000 rw-p 0000b000 00:17 173074                     /usr/lib64/libdat2.so.2.0.0
+2b0fbb126000-2b0fbb149000 r-xp 00000000 00:17 179747                     /usr/lib64/libdaploscm.so.2.0.0
+2b0fbb149000-2b0fbb349000 ---p 00023000 00:17 179747                     /usr/lib64/libdaploscm.so.2.0.0
+2b0fbb349000-2b0fbb34a000 r--p 00023000 00:17 179747                     /usr/lib64/libdaploscm.so.2.0.0
+2b0fbb34a000-2b0fbb34b000 rw-p 00024000 00:17 179747                     /usr/lib64/libdaploscm.so.2.0.0
+2b0fbb34b000-2b0fbb35f000 r-xp 00000000 00:17 175412                     /usr/lib64/libibverbs.so.1.1.16.5
+2b0fbb35f000-2b0fbb55f000 ---p 00014000 00:17 175412                     /usr/lib64/libibverbs.so.1.1.16.5
+2b0fbb55f000-2b0fbb560000 r--p 00014000 00:17 175412                     /usr/lib64/libibverbs.so.1.1.16.5
+2b0fbb560000-2b0fbb561000 rw-p 00015000 00:17 175412                     /usr/lib64/libibverbs.so.1.1.16.5
+2b0fbb561000-2b0fbb5ae000 r-xp 00000000 00:17 174932                     /usr/lib64/libnl-route-3.so.200.18.0
+2b0fbb5ae000-2b0fbb7ad000 ---p 0004d000 00:17 174932                     /usr/lib64/libnl-route-3.so.200.18.0
+2b0fbb7ad000-2b0fbb7b0000 r--p 0004c000 00:17 174932                     /usr/lib64/libnl-route-3.so.200.18.0
+2b0fbb7b0000-2b0fbb7b4000 rw-p 0004f000 00:17 174932                     /usr/lib64/libnl-route-3.so.200.18.0
+2b0fbb7b4000-2b0fbb7b6000 rw-p 00000000 00:00 0 
+2b0fbb7b6000-2b0fbb7d2000 r-xp 00000000 00:17 182045                     /usr/lib64/libnl-3.so.200.18.0
+2b0fbb7d2000-2b0fbb9d1000 ---p 0001c000 00:17 182045                     /usr/lib64/libnl-3.so.200.18.0
+2b0fbb9d1000-2b0fbb9d3000 r--p 0001b000 00:17 182045                     /usr/lib64/libnl-3.so.200.18.0
+2b0fbb9d3000-2b0fbb9d4000 rw-p 0001d000 00:17 182045                     /usr/lib64/libnl-3.so.200.18.0
+2b0fbb9d4000-2b0fbb9d9000 r-xp 00000000 00:17 174883                     /usr/lib64/libibverbs/libbnxt_re-rdmav16.so
+2b0fbb9d9000-2b0fbbbd8000 ---p 00005000 00:17 174883                     /usr/lib64/libibverbs/libbnxt_re-rdmav16.so
+2b0fbbbd8000-2b0fbbbd9000 r--p 00004000 00:17 174883                     /usr/lib64/libibverbs/libbnxt_re-rdmav16.so
+2b0fbbbd9000-2b0fbbbda000 rw-p 00005000 00:17 174883                     /usr/lib64/libibverbs/libbnxt_re-rdmav16.so
+2b0fbbbda000-2b0fbbbdf000 r-xp 00000000 00:17 174889                     /usr/lib64/libibverbs/libcxgb3-rdmav16.so
+2b0fbbbdf000-2b0fbbdde000 ---p 00005000 00:17 174889                     /usr/lib64/libibverbs/libcxgb3-rdmav16.so
+2b0fbbdde000-2b0fbbddf000 r--p 00004000 00:17 174889                     /usr/lib64/libibverbs/libcxgb3-rdmav16.so
+2b0fbbddf000-2b0fbbde0000 rw-p 00005000 00:17 174889                     /usr/lib64/libibverbs/libcxgb3-rdmav16.so
+2b0fbbde0000-2b0fbbde7000 r-xp 00000000 00:17 174890                     /usr/lib64/libibverbs/libcxgb4-rdmav16.so
+2b0fbbde7000-2b0fbbfe7000 ---p 00007000 00:17 174890                     /usr/lib64/libibverbs/libcxgb4-rdmav16.so
+2b0fbbfe7000-2b0fbbfe8000 r--p 00007000 00:17 174890                     /usr/lib64/libibverbs/libcxgb4-rdmav16.so
+2b0fbbfe8000-2b0fbbfe9000 rw-p 00008000 00:17 174890                     /usr/lib64/libibverbs/libcxgb4-rdmav16.so
+2b0fbbfe9000-2b0fbbfec000 r-xp 00000000 00:17 174892                     /usr/lib64/libibverbs/libhfi1verbs-rdmav16.so
+2b0fbbfec000-2b0fbc1ec000 ---p 00003000 00:17 174892                     /usr/lib64/libibverbs/libhfi1verbs-rdmav16.so
+2b0fbc1ec000-2b0fbc1ed000 r--p 00003000 00:17 174892                     /usr/lib64/libibverbs/libhfi1verbs-rdmav16.so
+2b0fbc1ed000-2b0fbc1ee000 rw-p 00004000 00:17 174892                     /usr/lib64/libibverbs/libhfi1verbs-rdmav16.so
+2b0fbc1ee000-2b0fbc1f4000 r-xp 00000000 00:17 174888                     /usr/lib64/libibverbs/libhns-rdmav16.so
+2b0fbc1f4000-2b0fbc3f4000 ---p 00006000 00:17 174888                     /usr/lib64/libibverbs/libhns-rdmav16.so
+2b0fbc3f4000-2b0fbc3f5000 r--p 00006000 00:17 174888                     /usr/lib64/libibverbs/libhns-rdmav16.so
+2b0fbc3f5000-2b0fbc3f6000 rw-p 00007000 00:17 174888                     /usr/lib64/libibverbs/libhns-rdmav16.so
+2b0fbc3f6000-2b0fbc3fc000 r-xp 00000000 00:17 174887                     /usr/lib64/libibverbs/libi40iw-rdmav16.so
+2b0fbc3fc000-2b0fbc5fc000 ---p 00006000 00:17 174887                     /usr/lib64/libibverbs/libi40iw-rdmav16.so
+2b0fbc5fc000-2b0fbc5fd000 r--p 00006000 00:17 174887                     /usr/lib64/libibverbs/libi40iw-rdmav16.so
+2b0fbc5fd000-2b0fbc5fe000 rw-p 00007000 00:17 174887                     /usr/lib64/libibverbs/libi40iw-rdmav16.so
+2b0fbc5fe000-2b0fbc601000 r-xp 00000000 00:17 174885                     /usr/lib64/libibverbs/libipathverbs-rdmav16.so
+2b0fbc601000-2b0fbc801000 ---p 00003000 00:17 174885                     /usr/lib64/libibverbs/libipathverbs-rdmav16.so
+2b0fbc801000-2b0fbc802000 r--p 00003000 00:17 174885                     /usr/lib64/libibverbs/libipathverbs-rdmav16.so
+2b0fbc802000-2b0fbc803000 rw-p 00004000 00:17 174885                     /usr/lib64/libibverbs/libipathverbs-rdmav16.so
+2b0fbc803000-2b0fbc80d000 r-xp 00000000 00:17 175007                     /usr/lib64/libmlx4.so.1.0.16.5
+2b0fbc80d000-2b0fbca0d000 ---p 0000a000 00:17 175007                     /usr/lib64/libmlx4.so.1.0.16.5
+2b0fbca0d000-2b0fbca0e000 r--p 0000a000 00:17 175007                     /usr/lib64/libmlx4.so.1.0.16.5
+2b0fbca0e000-2b0fbca0f000 rw-p 0000b000 00:17 175007                     /usr/lib64/libmlx4.so.1.0.16.5
+2b0fbca0f000-2b0fbca29000 r-xp 00000000 00:17 177678                     /usr/lib64/libmlx5.so.1.3.16.5
+2b0fbca29000-2b0fbcc29000 ---p 0001a000 00:17 177678                     /usr/lib64/libmlx5.so.1.3.16.5
+2b0fbcc29000-2b0fbcc2a000 r--p 0001a000 00:17 177678                     /usr/lib64/libmlx5.so.1.3.16.5
+2b0fbcc2a000-2b0fbcc2b000 rw-p 0001b000 00:17 177678                     /usr/lib64/libmlx5.so.1.3.16.5
+2b0fbcc2b000-2b0fbcc32000 r-xp 00000000 00:17 174886                     /usr/lib64/libibverbs/libmthca-rdmav16.so
+2b0fbcc32000-2b0fbce32000 ---p 00007000 00:17 174886                     /usr/lib64/libibverbs/libmthca-rdmav16.so
+2b0fbce32000-2b0fbce33000 r--p 00007000 00:17 174886                     /usr/lib64/libibverbs/libmthca-rdmav16.so
+2b0fbce33000-2b0fbce34000 rw-p 00008000 00:17 174886                     /usr/lib64/libibverbs/libmthca-rdmav16.so
+2b0fbce34000-2b0fbce39000 r-xp 00000000 00:17 174884                     /usr/lib64/libibverbs/libnes-rdmav16.so
+2b0fbce39000-2b0fbd038000 ---p 00005000 00:17 174884                     /usr/lib64/libibverbs/libnes-rdmav16.so
+2b0fbd038000-2b0fbd039000 r--p 00004000 00:17 174884                     /usr/lib64/libibverbs/libnes-rdmav16.so
+2b0fbd039000-2b0fbd03a000 rw-p 00005000 00:17 174884                     /usr/lib64/libibverbs/libnes-rdmav16.so
+2b0fbd03a000-2b0fbd040000 r-xp 00000000 00:17 174894                     /usr/lib64/libibverbs/libocrdma-rdmav16.so
+2b0fbd040000-2b0fbd23f000 ---p 00006000 00:17 174894                     /usr/lib64/libibverbs/libocrdma-rdmav16.so
+2b0fbd23f000-2b0fbd240000 r--p 00005000 00:17 174894                     /usr/lib64/libibverbs/libocrdma-rdmav16.so
+2b0fbd240000-2b0fbd241000 rw-p 00006000 00:17 174894                     /usr/lib64/libibverbs/libocrdma-rdmav16.so
+2b0fbd241000-2b0fbd249000 r-xp 00000000 00:17 174891                     /usr/lib64/libibverbs/libqedr-rdmav16.so
+2b0fbd249000-2b0fbd448000 ---p 00008000 00:17 174891                     /usr/lib64/libibverbs/libqedr-rdmav16.so
+2b0fbd448000-2b0fbd449000 r--p 00007000 00:17 174891                     /usr/lib64/libibverbs/libqedr-rdmav16.so
+2b0fbd449000-2b0fbd44a000 rw-p 00008000 00:17 174891                     /usr/lib64/libibverbs/libqedr-rdmav16.so
+2b0fbd44a000-2b0fbd44e000 r-xp 00000000 00:17 174893                     /usr/lib64/libibverbs/librxe-rdmav16.so
+2b0fbd44e000-2b0fbd64d000 ---p 00004000 00:17 174893                     /usr/lib64/libibverbs/librxe-rdmav16.so
+2b0fbd64d000-2b0fbd64e000 r--p 00003000 00:17 174893                     /usr/lib64/libibverbs/librxe-rdmav16.so
+2b0fbd64e000-2b0fbd64f000 rw-p 00004000 00:17 174893                     /usr/lib64/libibverbs/librxe-rdmav16.so
+2b0fbd64f000-2b0fbd653000 r-xp 00000000 00:17 174882                     /usr/lib64/libibverbs/libvmw_pvrdma-rdmav16.so
+2b0fbd653000-2b0fbd853000 ---p 00004000 00:17 174882                     /usr/lib64/libibverbs/libvmw_pvrdma-rdmav16.so
+2b0fbd853000-2b0fbd854000 r--p 00004000 00:17 174882                     /usr/lib64/libibverbs/libvmw_pvrdma-rdmav16.so
+2b0fbd854000-2b0fbd855000 rw-p 00005000 00:17 174882                     /usr/lib64/libibverbs/libvmw_pvrdma-rdmav16.so
+2b0fbd855000-2b0fbd856000 ---p 00000000 00:00 0 
+2b0fbd856000-2b0fbda56000 rw-p 00000000 00:00 0 
+2b0fbda56000-2b0fbda57000 ---p 00000000 00:00 0 
+2b0fbda57000-2b0fbdd13000 rw-p 00000000 00:00 0 
+2b0fbe3db000-2b0fbe416000 rw-p 00000000 00:00 0 
+2b0fbe416000-2b0fbe457000 rw-s 00000000 00:15 5749539                    /dev/shm/Intel_MPI_mZFEQi (deleted)
+2b0fbe457000-2b0fbe498000 rw-s 00000000 00:15 5744498                    /dev/shm/Intel_MPI_hL8wKi (deleted)
+2b0fbe498000-2b0fbe4d9000 rw-s 00000000 00:15 5764352                    /dev/shm/Intel_MPI_wTuyLi (deleted)
+2b0fbe4d9000-2b0fbe51a000 rw-s 00000000 00:15 5771284                    /dev/shm/Intel_MPI_5pCuMi (deleted)
+2b0fbe51a000-2b0fbe55b000 rw-s 00000000 00:15 5767309                    /dev/shm/Intel_MPI_mXyzNi (deleted)
+2b0fbe55b000-2b0fbe59c000 rw-s 00000000 00:15 5765287                    /dev/shm/Intel_MPI_9ySJuh (deleted)
+2b0fbe59c000-2b0fbe5dd000 rw-s 00000000 00:15 5780500                    /dev/shm/Intel_MPI_o975xh (deleted)
+2b0fbe5dd000-2b0fbe61e000 rw-s 00000000 00:15 5763655                    /dev/shm/Intel_MPI_YJBxla (deleted)
+2b0fbe61e000-2b0fbe65f000 rw-s 00000000 00:15 5760130                    /dev/shm/Intel_MPI_7UANoa (deleted)
+2b0fbe65f000-2b0fbe6a0000 rw-s 00000000 00:15 5762392                    /dev/shm/Intel_MPI_wASHpa (deleted)
+2b0fbe6a0000-2b0fbe6e1000 rw-s 00000000 00:15 5759455                    /dev/shm/Intel_MPI_7XEHha (deleted)
+2b0fbe6e1000-2b0fbe722000 rw-s 00000000 00:15 5752560                    /dev/shm/Intel_MPI_MhvDia (deleted)
+2b0fbe722000-2b0fbe763000 rw-s 00000000 00:15 5753236                    /dev/shm/Intel_MPI_fPaGja (deleted)
+2b0fbe763000-2b0fbe7a4000 rw-s 00000000 00:15 5705530                    /dev/shm/Intel_MPI_c8vHka (deleted)
+2b0fc0000000-2b0fc0041000 rw-p 00000000 00:00 0 
+2b0fc0041000-2b0fc4000000 ---p 00000000 00:00 0 
+2b0fc4000000-2b0fc8c4c000 rw-p 00000000 00:00 0 
+2b0fcc000000-2b0fcc021000 rw-p 00000000 00:00 0 
+2b0fcc021000-2b0fd0000000 ---p 00000000 00:00 0 
+2b0fd4f8a000-2b0fdf9df000 rw-p 00000000 00:00 0 
+7ffef3925000-7ffef394b000 rw-p 00000000 00:00 0                          [stack]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+forrtl: error (76): Abort trap signal
+Image              PC                Routine            Line        Source             
+libc.so.6          00002B0FB1F09FD7  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB1F0B3AA  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB1F49164  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB1F4E5D6  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB1F4E972  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB1F4F3C3  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB181F0FD  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB181CDB9  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB176BAE5  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB178615A  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB1863647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB173275F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB185C7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0FB17FC9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B0FB1CCB6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000004065FB  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B0FB1EF5765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+=>> PBS: job killed: walltime 15312 exceeded limit 15300
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00007F80FFD41E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEF3D9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEF3849B  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEF37C26  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEDBA172  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEE97647  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FED6675F  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEE907D2  Unknown               Unknown  Unknown
+libmpi.so.4        00007F80FEE309AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00007F80FEAAA6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00007F80FE6FF765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B1DBD22EE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBE11E9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBE11949B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBE118C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBDF9B172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBE078647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBDF4775F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBE0717D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1DBE0119AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B1DBE4E06A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B1DBE70A765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002AAF0F24FE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF1013F9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF1013A49B  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF10139C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF0FFBC172  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF10099647  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF0FF6875F  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF100927D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002AAF100329AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002AAF105016A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002AAF1072B765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002AFBD0315E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD12059C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD120049B  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD11FFC26  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD1082172  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD115F647  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD102E75F  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD11587D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002AFBD10F89AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002AFBD15C76A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002AFBD17F1765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B3EC48DEE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC57CE9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC57C949B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC57C8C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC564B172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC5728647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC55F775F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC57217D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B3EC56C19AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B3EC5B906A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B3EC5DBA765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B6848D22E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849C129C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849C0D49B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849C0CC26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849A8F172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849B6C647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849A3B75F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849B657D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B6849B059AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B6849FD46A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B684A1FE765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B524BEE8E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CDD89C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CDD349B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CDD2C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CC55172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CD32647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CC0175F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CD2B7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B524CCCB9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B524D19A6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B524D3C4765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B8217187E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B82180779C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B821807249B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B8218071C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B8217EF4172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B8217FD1647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B8217EA075F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B8217FCA7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B8217F6A9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B82184396A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B8218663765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B2A61EEAE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62DDA9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62DD549B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62DD4C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62C57172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62D34647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62C0375F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62D2D7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B2A62CCD9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B2A6319C6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B2A633C6765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B0ED108BE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1F7B9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1F7649B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1F75C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1DF8172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1ED5647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1DA475F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1ECE7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B0ED1E6E9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B0ED233D6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B0ED2567765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002AB51975AE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A64A9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A64549B  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A644C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A4C7172  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A5A4647  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A47375F  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A59D7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002AB51A53D9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002AB51AA0C6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002AB51AC36765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002ABB8E67FE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F56F9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F56A49B  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F569C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F3EC172  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F4C9647  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F39875F  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F4C27D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002ABB8F4629AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002ABB8F9316A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002ABB8FB5B765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B75E70CEE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7FBE9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7FB949B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7FB8C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7E3B172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7F18647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7DE775F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7F117D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B75E7EB19AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B75E83806A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B75E85AA765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002B15275A8E8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B15284989C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002B152849349B  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1528492C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002B1528315172  Unknown               Unknown  Unknown
+libmpi.so.4        00002B15283F2647  Unknown               Unknown  Unknown
+libmpi.so.4        00002B15282C175F  Unknown               Unknown  Unknown
+libmpi.so.4        00002B15283EB7D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002B152838B9AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002B152885A6A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002B1528A84765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    00002ACE8631EE8B  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE8720E9C0  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE8720949B  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE87208C26  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE8708B172  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE87168647  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE8703775F  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE871617D2  Unknown               Unknown  Unknown
+libmpi.so.4        00002ACE871019AE  Unknown               Unknown  Unknown
+libmpigf.so.4      00002ACE875D06A9  Unknown               Unknown  Unknown
+mcnpx.mpi          00000000006245ED  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000421781  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000405458  Unknown               Unknown  Unknown
+mcnpx.mpi          000000000040504B  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404FFC  Unknown               Unknown  Unknown
+libc.so.6          00002ACE877FA765  Unknown               Unknown  Unknown
+mcnpx.mpi          0000000000404EF9  Unknown               Unknown  Unknown

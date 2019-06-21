@@ -1,0 +1,467 @@
+r4i7n6.ib0.ice.inl.gov
+r4i7n6.ib0.ice.inl.gov
+r4i7n6.ib0.ice.inl.gov
+r4i7n6.ib0.ice.inl.gov
+r4i7n6.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+r4i7n14.ib0.ice.inl.gov
+DATAPATH=/hpc-common/data/mcnp5/udata/mcnp_data
+The following PBS extra args (PBS_EXTRA_ARGS) will be used: 
+The following MCNP extra args (MCNP_EXTRA_ARGS) will be used: 
+ mcnpx    ver=2.7.0 ld=Mon Apr 18 08:00:00 MST 2011   05/31/19 18:37:21
+
+ *************************************************************
+ *                                                           *
+ *                   MCNPX                                   *
+ *                                                           *
+ * Copyright 2007. Los Alamos National Security, LLC.        *
+ * All rights reserved.                                      *
+ *                                                           *
+ * This material was produced under U.S. Government contract *
+ * DE-AC52-06NA25396 for Los Alamos National Laboratory,     *
+ * which is operated by Los Alamos National Security, LLC    *
+ * for the U.S. Department of Energy. The Government is      *
+ * granted for itself and others acting on its behalf a      *
+ * paid-up, nonexclusive, irrevocable worldwide license in   *
+ * this material to reproduce, prepare derivative works, and *
+ * works, and perform publicly and display publicly.         *
+ * Beginning five (5) years after June 1, 2006, subject to   *
+ * additional five-year worldwide renewals, the Government   *
+ * is granted for itself and others acting on its behalf     *
+ * a paid-up, nonexclusive, irrevocable worldwide license    *
+ * in this material to reproduce, prepare derivative works,  *
+ * distribute copies to the public, perform publicly and     *
+ * display publicly, and to permit others to do so.          *
+ *                                                           *
+ * NEITHER THE UNITED STATES NOR THE UNITED STATES           *
+ * DEPARTMENT OF ENERGY, NOR LOS ALAMOS NATIONAL SECURITY,   *
+ * LLC, NOR ANY OF THEIR EMPLOYEES, MAKES ANY WARRANTY,      *
+ * EXPRESS OR IMPLIED, OR ASSUMES ANY LEGAL LIABILITY OR     *
+ * RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR         *
+ * USEFULNESS OF ANY INFORMATION, APPARATUS, PRODUCT, OR     *
+ * PROCESS DISCLOSED, OR REPRESENTS THAT ITS USE WOULD NOT   *
+ * INFRINGE PRIVATELY OWNED RIGHTS.                          *
+ *                                                           *
+ *************************************************************
+ m5     6000.70c    -0.000124           $C                            
+ warning.  material   5 is not used in the problem.
+ 
+ warning.  total nu is now the default for fixed-source problems.
+ warning.     2 surfaces were deleted for being the same as others.
+ warning.  surface     78   appears more than once in a chain.
+ warning.  surface     80   appears more than once in a chain.
+ warning.  surface     82   appears more than once in a chain.
+ warning.  surface     83   appears more than once in a chain.
+ warning.  surface     93   appears more than once in a chain.
+ warning.  surface     95   appears more than once in a chain.
+ warning.    1001.66c and   1001.70c are both called for.
+ warning.    5011.66c and   5011.70c are both called for.
+ warning.    8016.66c and   8016.70c are both called for.
+ warning.   11023.66c and  11023.70c are both called for.
+ warning.   13027.66c and  13027.70c are both called for.
+ warning.   14000.42c and  14000.60c are both called for.
+ warning.   14000.60c and  14000.70c are both called for.
+ warning.   19000.66c and  19000.70c are both called for.
+ warning.   25055.66c and  25055.70c are both called for.
+ warning.   26000.42c and  26000.50c are both called for.
+ warning.   56138.66c and  56138.70c are both called for.
+ warning.  use models for the following missing data tables:
+  14000.70c
+  19000.70c
+ warning.    2 materials had unnormalized fractions. print table 40.
+ warning.    1 of the materials appear at more than one density.
+ warning.     1 cells appear to consist of more than one piece.
+ imcn   is done
+ warning.        1 coincident energy grid points in  42096.70c
+ warning.        1 coincident energy grid points in  42097.70c
+ warning.   96244.70c lacks delayed neutron cross sections.
+ warning.   96246.70c lacks delayed neutron cross sections.
+ warning.  neutron energy cutoff is below some cross-section tables.
+ warning.     7 cross sections modified by free gas thermal treatment.
+ dump    1 on file single.assembly_7815.inp.r   nps =           0  coll =              0
+                              ctm =      0.00     nrn =              0
+
+ xact   is done
+ dynamic storage =         0 words,          0 bytes.      cp0 =  0.42
+master starting      15 by       1 subtasks   05/31/19 18:37:47
+master sending static commons...
+master sharing runtpe file...
+master completed initialization broadcasts.
+rendezvous at nps =       10000 # of microtasks =      15    05/31/19 18:37:49
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  3 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+ warning.     2 of   3 tallies had bins with large relative errors.
+rendezvous at nps =       20000 # of microtasks =      15    05/31/19 18:37:50
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+ warning.     2 of   3 tallies had bins with large relative errors.
+rendezvous at nps =       30000 # of microtasks =      15    05/31/19 18:37:51
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     3 of   3 tallies did not pass all 10 statistical checks.
+ warning.     2 of   3 tallies had bins with large relative errors.
+rendezvous at nps =       40000 # of microtasks =      15    05/31/19 18:37:52
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =       50000 # of microtasks =      15    05/31/19 18:37:53
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =       60000 # of microtasks =      15    05/31/19 18:37:54
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =       70000 # of microtasks =      15    05/31/19 18:37:55
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =       80000 # of microtasks =      15    05/31/19 18:37:55
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =       90000 # of microtasks =      15    05/31/19 18:37:56
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     3 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      100000 # of microtasks =      15    05/31/19 18:37:57
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      110000 # of microtasks =      15    05/31/19 18:37:58
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      120000 # of microtasks =      15    05/31/19 18:37:59
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      130000 # of microtasks =      15    05/31/19 18:38:00
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      140000 # of microtasks =      15    05/31/19 18:38:01
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      150000 # of microtasks =      15    05/31/19 18:38:01
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      160000 # of microtasks =      15    05/31/19 18:38:02
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     3 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      170000 # of microtasks =      15    05/31/19 18:38:03
+ warning.  tally  62 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  72 tfc bin did not pass  2 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     3 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      180000 # of microtasks =      15    05/31/19 18:38:04
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  2 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      190000 # of microtasks =      15    05/31/19 18:38:05
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      200000 # of microtasks =      15    05/31/19 18:38:06
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      210000 # of microtasks =      15    05/31/19 18:38:07
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      220000 # of microtasks =      15    05/31/19 18:38:07
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      230000 # of microtasks =      15    05/31/19 18:38:08
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      240000 # of microtasks =      15    05/31/19 18:38:09
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      250000 # of microtasks =      15    05/31/19 18:38:10
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      260000 # of microtasks =      15    05/31/19 18:38:11
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      270000 # of microtasks =      15    05/31/19 18:38:12
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      280000 # of microtasks =      15    05/31/19 18:38:13
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      290000 # of microtasks =      15    05/31/19 18:38:14
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      300000 # of microtasks =      15    05/31/19 18:38:14
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      310000 # of microtasks =      15    05/31/19 18:38:15
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      320000 # of microtasks =      15    05/31/19 18:38:16
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      330000 # of microtasks =      15    05/31/19 18:38:17
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      340000 # of microtasks =      15    05/31/19 18:38:18
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      350000 # of microtasks =      15    05/31/19 18:38:19
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      360000 # of microtasks =      15    05/31/19 18:38:20
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      370000 # of microtasks =      15    05/31/19 18:38:21
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     1 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      380000 # of microtasks =      15    05/31/19 18:38:21
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      390000 # of microtasks =      15    05/31/19 18:38:22
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      400000 # of microtasks =      15    05/31/19 18:38:23
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      410000 # of microtasks =      15    05/31/19 18:38:24
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      420000 # of microtasks =      15    05/31/19 18:38:25
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      430000 # of microtasks =      15    05/31/19 18:38:26
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      440000 # of microtasks =      15    05/31/19 18:38:27
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      450000 # of microtasks =      15    05/31/19 18:38:27
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      460000 # of microtasks =      15    05/31/19 18:38:28
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      470000 # of microtasks =      15    05/31/19 18:38:29
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      480000 # of microtasks =      15    05/31/19 18:38:30
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      490000 # of microtasks =      15    05/31/19 18:38:31
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      500000 # of microtasks =      15    05/31/19 18:38:32
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      510000 # of microtasks =      15    05/31/19 18:38:33
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      520000 # of microtasks =      15    05/31/19 18:38:34
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      530000 # of microtasks =      15    05/31/19 18:38:34
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      540000 # of microtasks =      15    05/31/19 18:38:35
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      550000 # of microtasks =      15    05/31/19 18:38:36
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      560000 # of microtasks =      15    05/31/19 18:38:37
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      570000 # of microtasks =      15    05/31/19 18:38:38
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      580000 # of microtasks =      15    05/31/19 18:38:39
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      590000 # of microtasks =      15    05/31/19 18:38:39
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      600000 # of microtasks =      15    05/31/19 18:38:40
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      610000 # of microtasks =      15    05/31/19 18:38:41
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      620000 # of microtasks =      15    05/31/19 18:38:42
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      630000 # of microtasks =      15    05/31/19 18:38:43
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      640000 # of microtasks =      15    05/31/19 18:38:44
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      650000 # of microtasks =      15    05/31/19 18:38:45
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      660000 # of microtasks =      15    05/31/19 18:38:45
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      670000 # of microtasks =      15    05/31/19 18:38:46
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      680000 # of microtasks =      15    05/31/19 18:38:47
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      690000 # of microtasks =      15    05/31/19 18:38:48
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      700000 # of microtasks =      15    05/31/19 18:38:49
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      710000 # of microtasks =      15    05/31/19 18:38:50
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      720000 # of microtasks =      15    05/31/19 18:38:51
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      730000 # of microtasks =      15    05/31/19 18:38:52
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      740000 # of microtasks =      15    05/31/19 18:38:53
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      750000 # of microtasks =      15    05/31/19 18:38:53
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      760000 # of microtasks =      15    05/31/19 18:38:54
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      770000 # of microtasks =      15    05/31/19 18:38:55
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      780000 # of microtasks =      15    05/31/19 18:38:56
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      790000 # of microtasks =      15    05/31/19 18:38:57
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      800000 # of microtasks =      15    05/31/19 18:38:58
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      810000 # of microtasks =      15    05/31/19 18:38:58
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      820000 # of microtasks =      15    05/31/19 18:38:59
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      830000 # of microtasks =      15    05/31/19 18:39:00
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      840000 # of microtasks =      15    05/31/19 18:39:01
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      850000 # of microtasks =      15    05/31/19 18:39:02
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      860000 # of microtasks =      15    05/31/19 18:39:03
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      870000 # of microtasks =      15    05/31/19 18:39:04
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      880000 # of microtasks =      15    05/31/19 18:39:04
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      890000 # of microtasks =      15    05/31/19 18:39:06
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      900000 # of microtasks =      15    05/31/19 18:39:07
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      910000 # of microtasks =      15    05/31/19 18:39:09
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      920000 # of microtasks =      15    05/31/19 18:39:10
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      930000 # of microtasks =      15    05/31/19 18:39:12
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      940000 # of microtasks =      15    05/31/19 18:39:13
+ warning.  tally  72 tfc bin did not pass  1 of 10 statistical checks.
+ warning.  tally  82 tfc bin did not pass  1 of 10 statistical checks.
+ warning.     2 of   3 tallies did not pass all 10 statistical checks.
+rendezvous at nps =      950000 # of microtasks =      15    05/31/19 18:39:14
