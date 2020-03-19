@@ -41,7 +41,7 @@ bounds{
 '
 case(irradiation){
   title="High burnup - 4.5% enrichment - 60 GWD/MTU"
-  neutron=yes
+  neutron={ alphan_medium=0 alphan_cutoff=0.0 alphan_bins=200 } 
   gamma=yes
   alpha=yes
   beta=yes
@@ -57,7 +57,7 @@ case(irradiation){
 '
 case(decay){
   title="Used fuel cooling in the pool"
-  neutron=yes
+  neutron={ alphan_medium=0 alphan_cutoff=0.0 alphan_bins=200 } 
   gamma=yes
   alpha=yes
   beta=yes
