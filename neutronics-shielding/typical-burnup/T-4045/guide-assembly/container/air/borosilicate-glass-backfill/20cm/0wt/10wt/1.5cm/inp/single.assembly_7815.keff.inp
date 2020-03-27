@@ -573,6 +573,7 @@ c      source
 c      ---
 c
 c      ---
+KCODE  1000 1.0 50 250
 SDEF   POS d1 ERG d2              $SP1 has to have the same number of entries as sources
 SI1    L  7.127 7.127 205    7.127 7.127 25    7.127 7.127 115
           8.381 7.127 205    8.381 7.127 25    8.381 7.127 115
